@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AB01DDED51C00405A9A /* AppDelegate.swift */; };
+		65747AB31DDED51C00405A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AB21DDED51C00405A9A /* ViewController.swift */; };
+		65747AB61DDED51C00405A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65747AB41DDED51C00405A9A /* Main.storyboard */; };
+		65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65747AB71DDED51C00405A9A /* OceanApp.xcdatamodeld */; };
+		65747ABB1DDED51C00405A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65747ABA1DDED51C00405A9A /* Assets.xcassets */; };
+		65747ABE1DDED51C00405A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */; };
+		65747AC91DDED51C00405A9A /* OceanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AC81DDED51C00405A9A /* OceanAppTests.swift */; };
+		65747AD41DDED51C00405A9A /* OceanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AD31DDED51C00405A9A /* OceanAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65747AC51DDED51C00405A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65747AA51DDED51B00405A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65747AAC1DDED51B00405A9A;
+			remoteInfo = OceanApp;
+		};
+		65747AD01DDED51C00405A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65747AA51DDED51B00405A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65747AAC1DDED51B00405A9A;
+			remoteInfo = OceanApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65747AAD1DDED51C00405A9A /* OceanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OceanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65747AB01DDED51C00405A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65747AB21DDED51C00405A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65747AB51DDED51C00405A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65747AB81DDED51C00405A9A /* OceanApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OceanApp.xcdatamodel; sourceTree = "<group>"; };
+		65747ABA1DDED51C00405A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65747ABD1DDED51C00405A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65747ABF1DDED51C00405A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65747AC41DDED51C00405A9A /* OceanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OceanAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65747AC81DDED51C00405A9A /* OceanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanAppTests.swift; sourceTree = "<group>"; };
+		65747ACA1DDED51C00405A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65747ACF1DDED51C00405A9A /* OceanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OceanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65747AD31DDED51C00405A9A /* OceanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanAppUITests.swift; sourceTree = "<group>"; };
+		65747AD51DDED51C00405A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65747AAA1DDED51B00405A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65747AC11DDED51C00405A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65747ACC1DDED51C00405A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65747AA41DDED51B00405A9A = {
+			isa = PBXGroup;
+			children = (
+				65747AAF1DDED51C00405A9A /* OceanApp */,
+				65747AC71DDED51C00405A9A /* OceanAppTests */,
+				65747AD21DDED51C00405A9A /* OceanAppUITests */,
+				65747AAE1DDED51C00405A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65747AAE1DDED51C00405A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65747AAD1DDED51C00405A9A /* OceanApp.app */,
+				65747AC41DDED51C00405A9A /* OceanAppTests.xctest */,
+				65747ACF1DDED51C00405A9A /* OceanAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65747AAF1DDED51C00405A9A /* OceanApp */ = {
+			isa = PBXGroup;
+			children = (
+				65747AB01DDED51C00405A9A /* AppDelegate.swift */,
+				65747AB21DDED51C00405A9A /* ViewController.swift */,
+				65747AB41DDED51C00405A9A /* Main.storyboard */,
+				65747ABA1DDED51C00405A9A /* Assets.xcassets */,
+				65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */,
+				65747ABF1DDED51C00405A9A /* Info.plist */,
+				65747AB71DDED51C00405A9A /* OceanApp.xcdatamodeld */,
+			);
+			path = OceanApp;
+			sourceTree = "<group>";
+		};
+		65747AC71DDED51C00405A9A /* OceanAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				65747AC81DDED51C00405A9A /* OceanAppTests.swift */,
+				65747ACA1DDED51C00405A9A /* Info.plist */,
+			);
+			path = OceanAppTests;
+			sourceTree = "<group>";
+		};
+		65747AD21DDED51C00405A9A /* OceanAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65747AD31DDED51C00405A9A /* OceanAppUITests.swift */,
+				65747AD51DDED51C00405A9A /* Info.plist */,
+			);
+			path = OceanAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65747AAC1DDED51B00405A9A /* OceanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65747AD81DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanApp" */;
+			buildPhases = (
+				65747AA91DDED51B00405A9A /* Sources */,
+				65747AAA1DDED51B00405A9A /* Frameworks */,
+				65747AAB1DDED51B00405A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OceanApp;
+			productName = OceanApp;
+			productReference = 65747AAD1DDED51C00405A9A /* OceanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65747AC31DDED51C00405A9A /* OceanAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65747ADB1DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanAppTests" */;
+			buildPhases = (
+				65747AC01DDED51C00405A9A /* Sources */,
+				65747AC11DDED51C00405A9A /* Frameworks */,
+				65747AC21DDED51C00405A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65747AC61DDED51C00405A9A /* PBXTargetDependency */,
+			);
+			name = OceanAppTests;
+			productName = OceanAppTests;
+			productReference = 65747AC41DDED51C00405A9A /* OceanAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65747ACE1DDED51C00405A9A /* OceanAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65747ADE1DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanAppUITests" */;
+			buildPhases = (
+				65747ACB1DDED51C00405A9A /* Sources */,
+				65747ACC1DDED51C00405A9A /* Frameworks */,
+				65747ACD1DDED51C00405A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65747AD11DDED51C00405A9A /* PBXTargetDependency */,
+			);
+			name = OceanAppUITests;
+			productName = OceanAppUITests;
+			productReference = 65747ACF1DDED51C00405A9A /* OceanAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65747AA51DDED51B00405A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = rookie;
+				TargetAttributes = {
+					65747AAC1DDED51B00405A9A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 366K8UG5Q9;
+						ProvisioningStyle = Automatic;
+					};
+					65747AC31DDED51C00405A9A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 366K8UG5Q9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65747AAC1DDED51B00405A9A;
+					};
+					65747ACE1DDED51C00405A9A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 366K8UG5Q9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65747AAC1DDED51B00405A9A;
+					};
+				};
+			};
+			buildConfigurationList = 65747AA81DDED51B00405A9A /* Build configuration list for PBXProject "OceanApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65747AA41DDED51B00405A9A;
+			productRefGroup = 65747AAE1DDED51C00405A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65747AAC1DDED51B00405A9A /* OceanApp */,
+				65747AC31DDED51C00405A9A /* OceanAppTests */,
+				65747ACE1DDED51C00405A9A /* OceanAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65747AAB1DDED51B00405A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65747ABE1DDED51C00405A9A /* LaunchScreen.storyboard in Resources */,
+				65747ABB1DDED51C00405A9A /* Assets.xcassets in Resources */,
+				65747AB61DDED51C00405A9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65747AC21DDED51C00405A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65747ACD1DDED51C00405A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65747AA91DDED51B00405A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65747AB31DDED51C00405A9A /* ViewController.swift in Sources */,
+				65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */,
+				65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65747AC01DDED51C00405A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65747AC91DDED51C00405A9A /* OceanAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65747ACB1DDED51C00405A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65747AD41DDED51C00405A9A /* OceanAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65747AC61DDED51C00405A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65747AAC1DDED51B00405A9A /* OceanApp */;
+			targetProxy = 65747AC51DDED51C00405A9A /* PBXContainerItemProxy */;
+		};
+		65747AD11DDED51C00405A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65747AAC1DDED51B00405A9A /* OceanApp */;
+			targetProxy = 65747AD01DDED51C00405A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65747AB41DDED51C00405A9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65747AB51DDED51C00405A9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65747ABD1DDED51C00405A9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65747AD61DDED51C00405A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65747AD71DDED51C00405A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65747AD91DDED51C00405A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 366K8UG5Q9;
+				INFOPLIST_FILE = OceanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smart.OceanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65747ADA1DDED51C00405A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 366K8UG5Q9;
+				INFOPLIST_FILE = OceanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smart.OceanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65747ADC1DDED51C00405A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 366K8UG5Q9;
+				INFOPLIST_FILE = OceanAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smart.OceanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OceanApp.app/OceanApp";
+			};
+			name = Debug;
+		};
+		65747ADD1DDED51C00405A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 366K8UG5Q9;
+				INFOPLIST_FILE = OceanAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smart.OceanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OceanApp.app/OceanApp";
+			};
+			name = Release;
+		};
+		65747ADF1DDED51C00405A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 366K8UG5Q9;
+				INFOPLIST_FILE = OceanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smart.OceanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OceanApp;
+			};
+			name = Debug;
+		};
+		65747AE01DDED51C00405A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 366K8UG5Q9;
+				INFOPLIST_FILE = OceanAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smart.OceanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OceanApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65747AA81DDED51B00405A9A /* Build configuration list for PBXProject "OceanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65747AD61DDED51C00405A9A /* Debug */,
+				65747AD71DDED51C00405A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65747AD81DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65747AD91DDED51C00405A9A /* Debug */,
+				65747ADA1DDED51C00405A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65747ADB1DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65747ADC1DDED51C00405A9A /* Debug */,
+				65747ADD1DDED51C00405A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65747ADE1DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65747ADF1DDED51C00405A9A /* Debug */,
+				65747AE01DDED51C00405A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65747AB71DDED51C00405A9A /* OceanApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65747AB81DDED51C00405A9A /* OceanApp.xcdatamodel */,
+			);
+			currentVersion = 65747AB81DDED51C00405A9A /* OceanApp.xcdatamodel */;
+			path = OceanApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65747AA51DDED51B00405A9A /* Project object */;
+}
