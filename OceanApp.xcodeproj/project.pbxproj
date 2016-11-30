@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65341ED41DEE810400AB90B0 /* QRActivityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65341ED31DEE810400AB90B0 /* QRActivityItem.swift */; };
+		65341ED61DEE942B00AB90B0 /* QRSafariActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65341ED51DEE942B00AB90B0 /* QRSafariActivity.swift */; };
+		654C6B6B1DED7FB600C38A7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C6B6A1DED7FB600C38A7D /* LoginViewController.swift */; };
+		654C6B6D1DED802700C38A7D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C6B6C1DED802700C38A7D /* TabBarViewController.swift */; };
+		654C6B701DED840400C38A7D /* QRCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C6B6F1DED840400C38A7D /* QRCaptureViewController.swift */; };
 		65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AB01DDED51C00405A9A /* AppDelegate.swift */; };
 		65747AB31DDED51C00405A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AB21DDED51C00405A9A /* ViewController.swift */; };
 		65747AB61DDED51C00405A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65747AB41DDED51C00405A9A /* Main.storyboard */; };
@@ -15,6 +20,8 @@
 		65747ABE1DDED51C00405A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */; };
 		65747AC91DDED51C00405A9A /* OceanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AC81DDED51C00405A9A /* OceanAppTests.swift */; };
 		65747AD41DDED51C00405A9A /* OceanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AD31DDED51C00405A9A /* OceanAppUITests.swift */; };
+		65C358821DE7036C00D78E19 /* OcColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C358811DE7036C00D78E19 /* OcColor.swift */; };
+		B0A896F90F359579927CD1DB /* Pods_OceanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E923412464E580DE881E40 /* Pods_OceanApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65341ED31DEE810400AB90B0 /* QRActivityItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRActivityItem.swift; sourceTree = "<group>"; };
+		65341ED51DEE942B00AB90B0 /* QRSafariActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRSafariActivity.swift; sourceTree = "<group>"; };
+		654C6B6A1DED7FB600C38A7D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		654C6B6C1DED802700C38A7D /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		654C6B6F1DED840400C38A7D /* QRCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCaptureViewController.swift; sourceTree = "<group>"; };
 		65747AAD1DDED51C00405A9A /* OceanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OceanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65747AB01DDED51C00405A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65747AB21DDED51C00405A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		65747ACF1DDED51C00405A9A /* OceanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OceanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65747AD31DDED51C00405A9A /* OceanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanAppUITests.swift; sourceTree = "<group>"; };
 		65747AD51DDED51C00405A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C358811DE7036C00D78E19 /* OcColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcColor.swift; sourceTree = "<group>"; };
+		7F56BAF140715BABCF3A7662 /* Pods-OceanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp.release.xcconfig"; sourceTree = "<group>"; };
+		88E923412464E580DE881E40 /* Pods_OceanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OceanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4142DF808CF870E5DDF9536 /* Pods-OceanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A896F90F359579927CD1DB /* Pods_OceanApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		654C6B691DED7FB600C38A7D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				654C6B6A1DED7FB600C38A7D /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		654C6B6E1DED82E800C38A7D /* QRCapture */ = {
+			isa = PBXGroup;
+			children = (
+				654C6B6F1DED840400C38A7D /* QRCaptureViewController.swift */,
+				65341ED31DEE810400AB90B0 /* QRActivityItem.swift */,
+				65341ED51DEE942B00AB90B0 /* QRSafariActivity.swift */,
+			);
+			path = QRCapture;
+			sourceTree = "<group>";
+		};
 		65747AA41DDED51B00405A9A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				65747AC71DDED51C00405A9A /* OceanAppTests */,
 				65747AD21DDED51C00405A9A /* OceanAppUITests */,
 				65747AAE1DDED51C00405A9A /* Products */,
+				F02811E7023E73EF705A80A8 /* Pods */,
+				BC21CA189F62F66D038435E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +138,15 @@
 			children = (
 				65747AB01DDED51C00405A9A /* AppDelegate.swift */,
 				65747AB21DDED51C00405A9A /* ViewController.swift */,
+				654C6B6C1DED802700C38A7D /* TabBarViewController.swift */,
+				654C6B6E1DED82E800C38A7D /* QRCapture */,
+				654C6B691DED7FB600C38A7D /* Login */,
 				65747AB41DDED51C00405A9A /* Main.storyboard */,
 				65747ABA1DDED51C00405A9A /* Assets.xcassets */,
 				65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */,
 				65747ABF1DDED51C00405A9A /* Info.plist */,
 				65747AB71DDED51C00405A9A /* OceanApp.xcdatamodeld */,
+				65C358811DE7036C00D78E19 /* OcColor.swift */,
 			);
 			path = OceanApp;
 			sourceTree = "<group>";
@@ -128,6 +169,23 @@
 			path = OceanAppUITests;
 			sourceTree = "<group>";
 		};
+		BC21CA189F62F66D038435E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E923412464E580DE881E40 /* Pods_OceanApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F02811E7023E73EF705A80A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4142DF808CF870E5DDF9536 /* Pods-OceanApp.debug.xcconfig */,
+				7F56BAF140715BABCF3A7662 /* Pods-OceanApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65747AD81DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanApp" */;
 			buildPhases = (
+				E348C3A23C9086DB8857E570 /* [CP] Check Pods Manifest.lock */,
 				65747AA91DDED51B00405A9A /* Sources */,
 				65747AAA1DDED51B00405A9A /* Frameworks */,
 				65747AAB1DDED51B00405A9A /* Resources */,
+				FE829B628FCD4B55F02F6A09 /* [CP] Embed Pods Frameworks */,
+				967BF69DF973F5E79C147A06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +321,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		967BF69DF973F5E79C147A06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E348C3A23C9086DB8857E570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE829B628FCD4B55F02F6A09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65747AA91DDED51B00405A9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				65747AB31DDED51C00405A9A /* ViewController.swift in Sources */,
+				65C358821DE7036C00D78E19 /* OcColor.swift in Sources */,
 				65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */,
+				654C6B6B1DED7FB600C38A7D /* LoginViewController.swift in Sources */,
+				654C6B6D1DED802700C38A7D /* TabBarViewController.swift in Sources */,
 				65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */,
+				65341ED41DEE810400AB90B0 /* QRActivityItem.swift in Sources */,
+				654C6B701DED840400C38A7D /* QRCaptureViewController.swift in Sources */,
+				65341ED61DEE942B00AB90B0 /* QRSafariActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +455,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -362,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -389,6 +505,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -405,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -415,6 +532,7 @@
 		};
 		65747AD91DDED51C00405A9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4142DF808CF870E5DDF9536 /* Pods-OceanApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 366K8UG5Q9;
@@ -428,6 +546,7 @@
 		};
 		65747ADA1DDED51C00405A9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F56BAF140715BABCF3A7662 /* Pods-OceanApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 366K8UG5Q9;
@@ -516,6 +635,7 @@
 				65747ADA1DDED51C00405A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65747ADB1DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +644,7 @@
 				65747ADD1DDED51C00405A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65747ADE1DDED51C00405A9A /* Build configuration list for PBXNativeTarget "OceanAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +653,7 @@
 				65747AE01DDED51C00405A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

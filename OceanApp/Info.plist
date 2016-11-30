@@ -22,8 +22,6 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -31,8 +29,19 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>扫一扫</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>qashotcutitem</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>oceanapp-qascan</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>欢迎提意见</string>
+		</dict>
 	</array>
 </dict>
 </plist>

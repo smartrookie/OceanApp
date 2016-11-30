@@ -1,0 +1,6 @@
+framework module Pods_OceanApp {
+  umbrella header "Pods-OceanApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
