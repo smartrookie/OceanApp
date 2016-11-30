@@ -41,15 +41,21 @@ class QRCaptureViewController: UIViewController {
         let authorizationStatus = AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo)
         switch authorizationStatus {
         case .authorized:
+            launchAVCaptureDevice()
             break
         case .denied,.notDetermined,.restricted:
             launchScanFailure(authorizationStatus)
             return
         }
         
+        
+    }
+    
+    func launchAVCaptureDevice() {
+        
         var input : AVCaptureDeviceInput?
         do {
-           input = try AVCaptureDeviceInput(device: device)
+            input = try AVCaptureDeviceInput(device: device)
         } catch {
             print("input initial error ")
         }
@@ -77,29 +83,35 @@ class QRCaptureViewController: UIViewController {
         view.layer.addSublayer(previewLayer!)
         
         scanSession.startRunning()
-        
     }
     
     func launchScanFailure(_ status: AVAuthorizationStatus) {
         
-        var err = ""
-        switch status{
-        case .authorized:
-            break
-        case .denied:
-            err = "denied"
-            break
-        case .notDetermined:
-            err = "notDetermined"
-            break
-        case .restricted:
-            err = "restricted"
-            break
-        }
-        print("AV author err = \(err)")
-        
-        failureLabel.text = err
-        view.addSubview(failureLabel)
+        AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo, completionHandler: { isAuthorized in
+            
+            if isAuthorized {
+                self.launchAVCaptureDevice()
+            } else {
+                var err = ""
+                switch status{
+                case .authorized:
+                    break
+                case .denied:
+                    err = "相机被禁用"
+                    break
+                case .notDetermined:
+                    err = "未知相机权限"
+                    break
+                case .restricted:
+                    err = "相机申请受限制"
+                    break
+                }
+                DispatchQueue.main.async {
+                    self.failureLabel.text = err
+                    self.view.addSubview(self.failureLabel)
+                }
+            }
+        })
     }
     
     override func didReceiveMemoryWarning() {
