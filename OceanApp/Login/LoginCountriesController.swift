@@ -8,12 +8,7 @@
 
 import UIKit
 
-
-
-
-
-
-class LoginCountriesController: UIViewController {
+class LoginCountriesController: UITableViewController {
     
     static var countryCodes: [[String]] = {
         
@@ -83,7 +78,6 @@ class LoginCountriesController: UIViewController {
     }
     
     class func countryName(countryId: String, code: inout Int) -> String? {
-        
         let _country =  LoginCountriesController.countryCodes.filter { (country) -> Bool in
             if country[1] == countryId.lowercased() {
                 code = Int ( country[0] )!
@@ -99,36 +93,71 @@ class LoginCountriesController: UIViewController {
         }
     }
     
-
+    
+    
+    
+    var sections = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
     
-
-    
-//    class func countryName(countryId: String, code: inout Int) -> String? {
-//        let countryId = countryId.lowercased()
-//        for <#item#> in <#items#> {
-//            <#code#>
-//        }
-//        
-//        
-//        
-//        return nil
-//    }
     
     
     
     
-    
-    
-    
-
 }
+
+extension LoginCountriesController {
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return sections.count
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 100
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        return cell
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
