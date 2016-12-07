@@ -8,4 +8,6 @@ target 'OceanApp' do
  
 pod 'Alamofire', '~> 4.1.0'
 
+pod 'BLPhoneFormat', '~> 0.3.3'
+
 end

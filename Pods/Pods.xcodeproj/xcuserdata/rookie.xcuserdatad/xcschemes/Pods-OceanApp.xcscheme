@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E746BAC26B899AD074E15C7546669FCC"
+               BlueprintIdentifier = "5CA09B6A2C6A979B018459F3FB135548"
                BuildableName = "Pods_OceanApp.framework"
                BlueprintName = "Pods-OceanApp"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E746BAC26B899AD074E15C7546669FCC"
+            BlueprintIdentifier = "5CA09B6A2C6A979B018459F3FB135548"
             BuildableName = "Pods_OceanApp.framework"
             BlueprintName = "Pods-OceanApp"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,12 +1,15 @@
 PODS:
   - Alamofire (4.1.0)
+  - BLPhoneFormat (0.3.3)
 
 DEPENDENCIES:
   - Alamofire (~> 4.1.0)
+  - BLPhoneFormat (~> 0.3.3)
 
 SPEC CHECKSUMS:
   Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  BLPhoneFormat: cb1cad0532d90ce2c56ad1758628765e2018ca62
 
-PODFILE CHECKSUM: e9f28424790badba78edd1f3ab707f96f2d1d35c
+PODFILE CHECKSUM: ac4244e3cf2af825cef8e1132e3694c2c2d2b26b
 
 COCOAPODS: 1.2.0.beta.1

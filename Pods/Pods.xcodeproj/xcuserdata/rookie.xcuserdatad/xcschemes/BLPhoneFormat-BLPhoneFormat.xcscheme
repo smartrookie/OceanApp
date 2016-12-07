@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '88E9EC28B8B46C3631E6B242B50F4442'
-               BlueprintName = 'Alamofire'
+               BlueprintIdentifier = 'CC6FEA044AD2A7B33FC25F03DB9AA16F'
+               BlueprintName = 'BLPhoneFormat-BLPhoneFormat'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Alamofire.framework'>
+               BuildableName = 'BLPhoneFormat.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
