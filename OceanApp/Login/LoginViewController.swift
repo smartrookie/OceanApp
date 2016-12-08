@@ -206,6 +206,12 @@ class LoginViewController: UIViewController {
         let loginCountriesController = LoginCountriesController()
         let loginCountriesNavi = UINavigationController(rootViewController: loginCountriesController)
         present(loginCountriesNavi, animated: true, completion: nil)
+        
+        loginCountriesController.countryCodeSelectedBlock = { (country) in
+            self.countryCodeField.text = String(format: "+%d",country.code)
+            self.countryButton.setTitle(country.name, for: .normal)
+            self.updatePhoneTextForCountryFieldText(self.countryCodeField.text!)
+        }
     }
     
     
@@ -241,17 +247,15 @@ class LoginViewController: UIViewController {
             formattedText = NSString(string: formattedText).substring(from: i)
             
             i = 0
-            while i < formattedText.characters.count {
-                let c = NSString(string: formattedText).character(at: i)
-                if c == NSString(string:"(").character(at: 0)
-                    || c == NSString(string:")").character(at: 0)
-                    || ( c >= NSString(string:"0").character(at: 0)
-                        &&  c >= NSString(string:"9").character(at: 0))
-                {
+            for c in formattedText.characters {
+                if c == "(".characters.first! || c == ")".characters.first!
+                    || ( c >= "0".characters.first!
+                        &&  c <= "9".characters.first!)  {
                     break
                 }
                 i += 1
             }
+            
             formattedText = NSString(string: formattedText).substring(from: i)
             phoneField.text = filterPhoneText(formattedText)
         } else {
