@@ -4,3 +4,5 @@
 
 #import <BLPhoneFormat/BLCountriesUtils.h>
 #import <BLPhoneFormat/RMPhoneFormat.h>
+
+#import "TGNavigationBar.h"

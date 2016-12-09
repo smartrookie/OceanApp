@@ -17,12 +17,10 @@ class TabBarViewController: UITabBarController {
         
         let qr_navi = UINavigationController(rootViewController:QRCaptureViewController())
         
-        let loginNv = UINavigationController(navigationBarClass: OcTransparentNavigationBar.self, toolbarClass: nil)
+        let loginNv = UINavigationController(navigationBarClass: TGTransparentNavigationBar.self, toolbarClass: nil)
         loginNv.setViewControllers([LoginViewController()], animated: false)
         
-        
-        viewControllers = [qr_navi,loginNv]
-        
+        viewControllers = [loginNv,qr_navi]
     }
 
     override func didReceiveMemoryWarning() {
