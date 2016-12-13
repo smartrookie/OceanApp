@@ -220,7 +220,8 @@ class LoginViewController: UIViewController {
     }
     
     func nextButtonPressed(_ barItem: UIBarButtonItem) {
-        
+        let codeController = LoginCodeController()
+        navigationController?.pushViewController(codeController, animated: true)
     }
     
     func termsOfServiceTapGesture(_ gesture: UITapGestureRecognizer) {

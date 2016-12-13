@@ -27,7 +27,7 @@
 		65747AC91DDED51C00405A9A /* OceanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AC81DDED51C00405A9A /* OceanAppTests.swift */; };
 		65747AD41DDED51C00405A9A /* OceanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65747AD31DDED51C00405A9A /* OceanAppUITests.swift */; };
 		65749F541DF806B20037D2E4 /* BLPhoneFormat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65749F531DF806B20037D2E4 /* BLPhoneFormat.bundle */; };
-		657629081DFAA53600B838EE /* TGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657629051DFAA53600B838EE /* TGNavigationBar.m */; };
+		6580320C1DFE7E95001AA667 /* LoginCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580320B1DFE7E95001AA667 /* LoginCodeController.swift */; };
 		65C358821DE7036C00D78E19 /* OcColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C358811DE7036C00D78E19 /* OcColor.swift */; };
 		B0A896F90F359579927CD1DB /* Pods_OceanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E923412464E580DE881E40 /* Pods_OceanApp.framework */; };
 /* End PBXBuildFile section */
@@ -77,8 +77,7 @@
 		65747AD51DDED51C00405A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65749F4D1DF7D8B60037D2E4 /* OceanApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OceanApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		65749F531DF806B20037D2E4 /* BLPhoneFormat.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BLPhoneFormat.bundle; sourceTree = "<group>"; };
-		657629041DFAA53600B838EE /* TGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGNavigationBar.h; sourceTree = "<group>"; };
-		657629051DFAA53600B838EE /* TGNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGNavigationBar.m; sourceTree = "<group>"; };
+		6580320B1DFE7E95001AA667 /* LoginCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCodeController.swift; sourceTree = "<group>"; };
 		65C358811DE7036C00D78E19 /* OcColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcColor.swift; sourceTree = "<group>"; };
 		7F56BAF140715BABCF3A7662 /* Pods-OceanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp.release.xcconfig"; sourceTree = "<group>"; };
 		88E923412464E580DE881E40 /* Pods_OceanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OceanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +115,7 @@
 			children = (
 				654C6B6A1DED7FB600C38A7D /* LoginViewController.swift */,
 				6540D7491DF5AA2000FFA91B /* LoginCountriesController.swift */,
+				6580320B1DFE7E95001AA667 /* LoginCodeController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -133,8 +133,6 @@
 		6564123D1DF68DFE0064E6AD /* OceanKit */ = {
 			isa = PBXGroup;
 			children = (
-				657629041DFAA53600B838EE /* TGNavigationBar.h */,
-				657629051DFAA53600B838EE /* TGNavigationBar.m */,
 				6564123E1DF68E1A0064E6AD /* OcDispatchQueue.swift */,
 				656412421DF6EA240064E6AD /* OcPhoneUtils.swift */,
 				65749F4D1DF7D8B60037D2E4 /* OceanApp-Bridging-Header.h */,
@@ -419,9 +417,9 @@
 				654F4D8D1DF15FB100954E56 /* OcFont.swift in Sources */,
 				65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */,
 				654C6B6B1DED7FB600C38A7D /* LoginViewController.swift in Sources */,
+				6580320C1DFE7E95001AA667 /* LoginCodeController.swift in Sources */,
 				6540D74A1DF5AA2000FFA91B /* LoginCountriesController.swift in Sources */,
 				654C6B6D1DED802700C38A7D /* TabBarViewController.swift in Sources */,
-				657629081DFAA53600B838EE /* TGNavigationBar.m in Sources */,
 				65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */,
 				65341ED41DEE810400AB90B0 /* QRActivityItem.swift in Sources */,
 				656412431DF6EA240064E6AD /* OcPhoneUtils.swift in Sources */,

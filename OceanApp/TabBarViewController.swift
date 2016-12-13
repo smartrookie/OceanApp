@@ -17,7 +17,7 @@ class TabBarViewController: UITabBarController {
         
         let qr_navi = UINavigationController(rootViewController:QRCaptureViewController())
         
-        let loginNv = UINavigationController(navigationBarClass: TGTransparentNavigationBar.self, toolbarClass: nil)
+        let loginNv = UINavigationController(navigationBarClass: OcTransparentNavigationBar.self, toolbarClass: nil)
         loginNv.setViewControllers([LoginViewController()], animated: false)
         
         viewControllers = [loginNv,qr_navi]
