@@ -20,8 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarViewController = TabBarViewController()
         window.rootViewController = tabBarViewController
         window.makeKeyAndVisible()
-        window.becomeFirstResponder()
         
+        let hasLogin = false
+        
+        if !hasLogin {
+            presentLoginController("18612259290")
+        }
+        readingPreferenceSetting()
         return true
     }
 
@@ -93,6 +98,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     */
-
+    
+    lazy var loginNavigationController: UINavigationController = {
+        return UINavigationController(navigationBarClass: OcTransparentNavigationBar.self, toolbarClass: nil)
+    }()
+    
+    func presentLoginController(_ phoneNumber: String) {
+        
+        if !Thread.isMainThread {
+            performSelector(onMainThread: #selector(presentLoginController(_:)), with: phoneNumber, waitUntilDone: true)
+        }
+        
+        let viewControllers = [LoginViewController()]
+        loginNavigationController.setViewControllers(viewControllers, animated: false)
+        window.rootViewController!.present(loginNavigationController,
+                                           animated: UIApplication.shared.applicationState == .active,
+                                           completion: nil)
+        
+    }
+    
 }
+
+
+extension AppDelegate {
+    
+    func readingPreferenceSetting() {
+        
+        let settingsBundle = Bundle.main.path(forResource: "Settings", ofType: "bundle")
+        guard let _ = settingsBundle else {
+            return
+        }
+    }
+}
+
+
+
+
 

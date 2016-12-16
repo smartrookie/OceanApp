@@ -1,29 +1,28 @@
 //
-//  TabBarViewController.swift
+//  AccountSettingsController.swift
 //  OceanApp
 //
-//  Created by rookie on 2016/11/29.
+//  Created by rookie on 2016/12/15.
 //  Copyright © 2016年 rookie. All rights reserved.
 //
 
 import UIKit
 
-class TabBarViewController: UITabBarController {
+class AccountSettingsController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Settings"
+        view.backgroundColor = UIColor.white
 
         
         
-        let qr_navi = UINavigationController(rootViewController:QRCaptureViewController())
-        let accountSettingsController = AccountSettingsController()
-        let accountNavi = UINavigationController(rootViewController: accountSettingsController)
         
-        accountNavi.tabBarItem = UITabBarItem(title: "Settings",
-                                              image: UIImage(named: "TabIconSettings"),
-                                              selectedImage: UIImage(named: "TabIconSettings_Highlighted"))
         
-        viewControllers = [qr_navi,accountNavi]
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

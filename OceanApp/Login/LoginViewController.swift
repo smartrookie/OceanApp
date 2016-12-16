@@ -177,7 +177,7 @@ class LoginViewController: UIViewController {
         if let _ = carrier {
             countryId = carrier?.isoCountryCode
         }
-        if let _ = countryId {
+        if let _ = countryId {} else {
             countryId = NSLocale.current.regionCode
         }
         
@@ -216,7 +216,10 @@ class LoginViewController: UIViewController {
     
     
     func doneButtonPressed(_ barItem: UIBarButtonItem) {
+        UIApplication.shared.beginIgnoringInteractionEvents()
         view.endEditing(true)
+        dismiss(animated: true, completion: nil)
+        UIApplication.shared.endIgnoringInteractionEvents()
     }
     
     func nextButtonPressed(_ barItem: UIBarButtonItem) {
