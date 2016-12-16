@@ -13,17 +13,26 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        let contactsController = ContactsController()
+        let contactsNavi = UINavigationController(rootViewController: contactsController)
+        contactsNavi.tabBarItem = UITabBarItem(title: "Contacts",
+                                               image: UIImage(named: "TabIconContacts"),
+                                               selectedImage: UIImage(named: "TabIconContacts_Highlighted"))
         
         let qr_navi = UINavigationController(rootViewController:QRCaptureViewController())
+        
         let accountSettingsController = AccountSettingsController()
         let accountNavi = UINavigationController(rootViewController: accountSettingsController)
-        
+
         accountNavi.tabBarItem = UITabBarItem(title: "Settings",
                                               image: UIImage(named: "TabIconSettings"),
                                               selectedImage: UIImage(named: "TabIconSettings_Highlighted"))
         
-        viewControllers = [qr_navi,accountNavi]
+        
+        
+        
+        
+        viewControllers = [contactsNavi,qr_navi,accountNavi]
     }
 
     override func didReceiveMemoryWarning() {
