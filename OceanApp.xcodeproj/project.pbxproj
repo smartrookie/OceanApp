@@ -35,6 +35,9 @@
 		B0A896F90F359579927CD1DB /* Pods_OceanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E923412464E580DE881E40 /* Pods_OceanApp.framework */; };
 		DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */; };
 		DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */; };
+		DEC5FD341E09310D00762C89 /* OcModernConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */; };
+		DEC5FD3B1E093B3500762C89 /* OcConversationInputPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD3A1E093B3500762C89 /* OcConversationInputPanel.swift */; };
+		DEC5FD3D1E09434200762C89 /* OcConversationInputTextPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD3C1E09434200762C89 /* OcConversationInputTextPanel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +95,9 @@
 		B4142DF808CF870E5DDF9536 /* Pods-OceanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactsManager.swift; sourceTree = "<group>"; };
 		DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactCell.swift; sourceTree = "<group>"; };
+		DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcModernConversationController.swift; sourceTree = "<group>"; };
+		DEC5FD3A1E093B3500762C89 /* OcConversationInputPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcConversationInputPanel.swift; sourceTree = "<group>"; };
+		DEC5FD3C1E09434200762C89 /* OcConversationInputTextPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcConversationInputTextPanel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +207,7 @@
 				654C6B691DED7FB600C38A7D /* Login */,
 				6514B86D1E0278D600B07611 /* Settings */,
 				656A028A1E03D4B90012BEE3 /* Contacts */,
+				DEC5FD321E09307E00762C89 /* Conversation */,
 				65747AB41DDED51C00405A9A /* Main.storyboard */,
 				65747ABA1DDED51C00405A9A /* Assets.xcassets */,
 				65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */,
@@ -240,6 +247,24 @@
 				88E923412464E580DE881E40 /* Pods_OceanApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEC5FD321E09307E00762C89 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */,
+				DEC5FD391E093B1200762C89 /* Input Panel */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		DEC5FD391E093B1200762C89 /* Input Panel */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5FD3A1E093B3500762C89 /* OcConversationInputPanel.swift */,
+				DEC5FD3C1E09434200762C89 /* OcConversationInputTextPanel.swift */,
+			);
+			path = "Input Panel";
 			sourceTree = "<group>";
 		};
 		F02811E7023E73EF705A80A8 /* Pods */ = {
@@ -443,11 +468,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC5FD3B1E093B3500762C89 /* OcConversationInputPanel.swift in Sources */,
 				65747AB31DDED51C00405A9A /* ViewController.swift in Sources */,
 				654F4D8F1DF1716700954E56 /* OcNavigationBar.swift in Sources */,
 				DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */,
 				65C358821DE7036C00D78E19 /* OcColor.swift in Sources */,
 				654F4D8D1DF15FB100954E56 /* OcFont.swift in Sources */,
+				DEC5FD341E09310D00762C89 /* OcModernConversationController.swift in Sources */,
 				65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */,
 				654C6B6B1DED7FB600C38A7D /* LoginViewController.swift in Sources */,
 				DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */,
@@ -458,6 +485,7 @@
 				65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */,
 				65341ED41DEE810400AB90B0 /* QRActivityItem.swift in Sources */,
 				656412431DF6EA240064E6AD /* OcPhoneUtils.swift in Sources */,
+				DEC5FD3D1E09434200762C89 /* OcConversationInputTextPanel.swift in Sources */,
 				6514B86F1E0278F700B07611 /* AccountSettingsController.swift in Sources */,
 				654C6B701DED840400C38A7D /* QRCaptureViewController.swift in Sources */,
 				6564123F1DF68E1A0064E6AD /* OcDispatchQueue.swift in Sources */,

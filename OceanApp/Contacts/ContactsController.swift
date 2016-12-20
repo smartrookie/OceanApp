@@ -118,7 +118,13 @@ class ContactsController: UIViewController {
 
 extension ContactsController : UITableViewDelegate {
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let conversation = OcModernConversationController()
+        conversation.hidesBottomBarWhenPushed = true 
+        navigationController?.pushViewController(conversation, animated: true)
+    }
     
     
     
