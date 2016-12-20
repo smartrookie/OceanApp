@@ -33,6 +33,8 @@
 		6580320C1DFE7E95001AA667 /* LoginCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580320B1DFE7E95001AA667 /* LoginCodeController.swift */; };
 		65C358821DE7036C00D78E19 /* OcColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C358811DE7036C00D78E19 /* OcColor.swift */; };
 		B0A896F90F359579927CD1DB /* Pods_OceanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E923412464E580DE881E40 /* Pods_OceanApp.framework */; };
+		DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */; };
+		DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		7F56BAF140715BABCF3A7662 /* Pods-OceanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp.release.xcconfig"; sourceTree = "<group>"; };
 		88E923412464E580DE881E40 /* Pods_OceanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OceanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4142DF808CF870E5DDF9536 /* Pods-OceanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OceanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OceanApp/Pods-OceanApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactsManager.swift; sourceTree = "<group>"; };
+		DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				656A028B1E03D4E80012BEE3 /* ContactsController.swift */,
+				DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */,
+				DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -318,7 +324,7 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 3LZ89LE432;
 						LastSwiftMigration = 0810;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					65747AC31DDED51C00405A9A = {
 						CreatedOnToolsVersion = 8.1;
@@ -439,10 +445,12 @@
 			files = (
 				65747AB31DDED51C00405A9A /* ViewController.swift in Sources */,
 				654F4D8F1DF1716700954E56 /* OcNavigationBar.swift in Sources */,
+				DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */,
 				65C358821DE7036C00D78E19 /* OcColor.swift in Sources */,
 				654F4D8D1DF15FB100954E56 /* OcFont.swift in Sources */,
 				65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */,
 				654C6B6B1DED7FB600C38A7D /* LoginViewController.swift in Sources */,
+				DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */,
 				6580320C1DFE7E95001AA667 /* LoginCodeController.swift in Sources */,
 				656A028C1E03D4E80012BEE3 /* ContactsController.swift in Sources */,
 				6540D74A1DF5AA2000FFA91B /* LoginCountriesController.swift in Sources */,
@@ -607,14 +615,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang Feng (54KR2MKCV3)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3LZ89LE432;
 				INFOPLIST_FILE = OceanApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smart.oceanApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "634cc443-a329-47fa-a0ed-12304f55173a";
-				PROVISIONING_PROFILE_SPECIFIER = developall;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "OceanApp/OceanKit/OceanApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -627,14 +636,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang Feng (54KR2MKCV3)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3LZ89LE432;
 				INFOPLIST_FILE = OceanApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smart.oceanApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "634cc443-a329-47fa-a0ed-12304f55173a";
-				PROVISIONING_PROFILE_SPECIFIER = developall;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "OceanApp/OceanKit/OceanApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
