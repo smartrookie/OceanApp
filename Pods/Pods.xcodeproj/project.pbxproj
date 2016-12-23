@@ -7,52 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013042A86EC06116DA329F606C793035 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A13CA839D9D0B42B8511D43FF280DC56 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		053F6F575C9E53E2CC9D08A4C73AADF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		058676B33DF28A8EDDAEE35A69DFE0DA /* BLPhoneFormat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C2C98F091132E8A43A8E809BE45690 /* BLPhoneFormat-dummy.m */; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F03645516BD7475268CE327A0A67F6 /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E98BB57762945F9DB4FB20A9CA68BB73 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DC51413FAA9657ED5D094D011C757B0 /* BLPhoneFormat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4065BC95B57EA0EBFF0892D71DB9223B /* BLPhoneFormat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3386F995775E7A818C47C4F358D3B102 /* TaskDelegate.swift */; };
-		4CB6D3D69FBF81AFFABA6F22FDF6593F /* BLPhoneFormat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6ABCB62EE43412B3EC339797146DA4B8 /* BLPhoneFormat.bundle */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A20DEC7256ACCAECD4C44161B9B954C /* Request.swift */; };
-		5D6F0FFCDFB0E2D8600BBB7DDDB85CD4 /* RMPhoneFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 56233729CE0C5A3DDA05234FB55559D1 /* RMPhoneFormat.m */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA382C4929C95270E16033E3EFB64DD /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4BA57E020C001C76F78F503331A9F /* ServerTrustPolicy.swift */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA4166C46E9A15A811FCB51A5DEF6F /* SessionDelegate.swift */; };
-		7B85300702DA0FE39A79F7A97B1C5B73 /* PhoneFormats.dat in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D4F2A7C8A273DF44600736BEA9079 /* PhoneFormats.dat */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5AF45D8AF73FD41468ACA95CD1EF8 /* Result.swift */; };
-		8B153CFED5F68369C51AE75A51FB9DA7 /* BLCountriesUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0032D9FECA76CD7704BAC73C1878D59F /* BLCountriesUtils.m */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D725713436798775BE9EB85D27B070F /* AFError.swift */; };
+		058676B33DF28A8EDDAEE35A69DFE0DA /* BLPhoneFormat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF42C9178E24EFCCB2B11FEF3BAFC31 /* BLPhoneFormat-dummy.m */; };
+		0623DBF5D1742B43B26FA898AF3F4D73 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E18C7244BAC63CFAA0238255B833BCF /* TransformationMatrix.cpp */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F6A7FF58B1D65B73D27EF00070D51 /* Timeline.swift */; };
+		1423CBFDFFC8A56977756FFBEE1F94C3 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE8EA90B154BC13905CCD1207595E71 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16025D538D5BB392DB36B26F2EC03296 /* BLContactsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B1F2127C6638910C79D41E6F765D55 /* BLContactsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D341C49C75D433E81B33505FF06D8C04 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CF11C3330EF5A50A59061D602C22866 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2E8727D11EF107D9AE231AF68DC19 /* POPDecayAnimation.mm */; };
+		21B1277FBDF204AC8B8548910E7F7219 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8725009D633FB0A802992C2A9B3EE /* pop-dummy.m */; };
+		2792AB12EC05509F2FFC4920019E9816 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = D0905ACD693B01D0AF82BED29BD88379 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D7D3F0BCF1A17A3CFD5AC6D9D095F16 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EC5D474146ADE4A5B3DFF3B4F74326 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC51413FAA9657ED5D094D011C757B0 /* BLPhoneFormat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A72D701334F98B3C26F523A2806EA98 /* BLPhoneFormat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F1C9A3AE3493770104E3E078CD98DF8 /* Pods-OceanApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26068C6F03B318801BED5EB17CCADC7B /* Pods-OceanApp-dummy.m */; };
+		3211E2FD43CB44831D7DEF051CB7E944 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD9C1C8C6E3A52425D54F36F989C7 /* POPLayerExtras.mm */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB32CED6BB7E0EC50481AA7FF9773A8 /* TaskDelegate.swift */; };
+		37DB7EC41BA96D3BC39E7CFC8DF73C3B /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C9F290B6463BBB16F27A97E46CA50E /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD2ECB03EF7231AAE2E7B9B3E5B8CA6 /* BLContactsViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CEDE429C22192DAF78B36191B096C2 /* BLContactsViewController-dummy.m */; };
+		3F0121B417E31EE5D3BCCC39FF74A6E1 /* BLContacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306B5538DE120CCD980D6DD8C93801CC /* BLContacts.storyboard */; };
+		403D89132A3727D4C354BC36193C55C0 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDA9995CA0CA82485B3EFA7D4560C5F /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41ACF4181BF912E0F35838D98AAA0653 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD4E6E8E52532154CB3973930AF0007 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		439EBB1CBC4FBC40F7C271E86E012A16 /* Pods-OceanApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B435AD56389475BB4D25B748813307 /* Pods-OceanApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB6D3D69FBF81AFFABA6F22FDF6593F /* BLPhoneFormat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B2A6BCB3466C8560E4735543894865F /* BLPhoneFormat.bundle */; };
+		4DBD0544C13792EA7A37FC916012BA3C /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = E11F481B9EF6AC44677B018C012C0043 /* POPAnimation.mm */; };
+		4E9AE607D231B402B5BFF0FA9156E6ED /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BCE45235A7D292F55A93988FC010B7 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F3E55713AC658F69F0AA5A01AA8B788 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = E18E569180D90B57FD6125AAA2D75623 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A3156179D1B6A9A936238DBA9C4DF /* Request.swift */; };
+		53A592E1AC130F9B895FD3CEFD97AF3A /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED19A9705EA792CD1A7A5D6921AC306 /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB4FE73BA42D9A4F78622BCC895D372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5D6F0FFCDFB0E2D8600BBB7DDDB85CD4 /* RMPhoneFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB88E301CB5B75089195C9A404BD04 /* RMPhoneFormat.m */; };
+		6007B4A6A7777F008AD20106C858E861 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = B7D89FC5DDB0A8F8CDDE224D24FEE58D /* POPMath.mm */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA529E968206A105CA64C6A57C96C2A /* DispatchQueue+Alamofire.swift */; };
+		6172A903A9D1D1CC83F54A4457979CA9 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB32033EBB028DEBB7FDD494801B59F /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE26579F992AF663B6495E491D4CA5 /* ServerTrustPolicy.swift */; };
+		66A65126E7FD4079ADCB15E0717702CA /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5E7141548C490F997F6DAC18D5B8C /* POPCustomAnimation.mm */; };
+		67C9D99493C23062575A4AC2B440EF7A /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77F405317FF219107BEC0F1C7A1C9D3E /* POPAnimationRuntime.mm */; };
+		6D2219755C9835EBB60DA31DDB2F8274 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93423C984CAE391E59FF42C0E21F5DA1 /* POPAnimationTracer.mm */; };
+		6D9CF139CAF6AFC6839E44704DD806CD /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F3BD2190ED4622E72CF87F7F272DB4 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74266F858D29EA4C7460E6D6908B881F /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2AF0FF29C17889808FE238ECA42951 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D0B4B9CD17D227B1D8250E9CE20DEC /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47419BA3A13D05291B8D293EB9E3D565 /* POPGeometry.mm */; };
+		78B36A22144372ABA72FECA36D4B13E2 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F0273F1C593C191FE5C71AA613940267 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7943904A6E8B3EBDEBF8DCFC63E4C0AA /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE0B3732BF8BCD5D88BE789B9BB8F5F /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608FD35F98C10FEB5B0969A0C325ED0 /* SessionDelegate.swift */; };
+		7B85300702DA0FE39A79F7A97B1C5B73 /* PhoneFormats.dat in Resources */ = {isa = PBXBuildFile; fileRef = EBD2B84915B81FABBEF0EE95BC02132C /* PhoneFormats.dat */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D78D4DE30B3A84CCD2DEEF93BF3D0 /* Result.swift */; };
+		7E77713D7180B7CA2AE236CDB6ED4E4A /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13EA672498218B992C4E8D3B5A668058 /* POPPropertyAnimation.mm */; };
+		7EF21EF4A222296D0A3FE5234CB215E1 /* BLContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5681BDDDB30ED83C5C85FAAC426FB8 /* BLContactsViewController.m */; };
+		7F3B5BAB2667C40A4B9CF480C220CFC9 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0BDEA4F8831ADCBBD4BCCEFE597B652B /* POPAnimator.mm */; };
+		8B153CFED5F68369C51AE75A51FB9DA7 /* BLCountriesUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 84734F89FB7BB1E1A49FDC9BFD5FFE43 /* BLCountriesUtils.m */; };
+		9E55EAB0DA67E527AFA70A1C527996A9 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 16280164BD2FD70D25F3A41CA976E527 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D196FC500C1DF8CA1EB9708EC87E309 /* AFError.swift */; };
 		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAE88A2D819E6DBD0CF958D892412F /* NetworkReachabilityManager.swift */; };
-		A2B9353729EB1052EFF1A7AF32788860 /* BLCountriesUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DB1639EB92090DD359025F98105B76 /* BLCountriesUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B0C64A721751861F6F4628C73BF359 /* Alamofire-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E2B5EBD77D59356C2A593BF8A5436D /* SessionManager.swift */; };
-		B53F8FD351415841109399D4AF7B586F /* Pods-OceanApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B435AD56389475BB4D25B748813307 /* Pods-OceanApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4430EB8394BF9CC6AA23146E4013AB /* MultipartFormData.swift */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F25530EBEE0D3ECA0220FC783C902 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC5F9D50DEB2C3D33E8AA46AAC2201 /* ParameterEncoding.swift */; };
-		BF9307C8CBBC7420349A916866D77317 /* Pods-OceanApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26068C6F03B318801BED5EB17CCADC7B /* Pods-OceanApp-dummy.m */; };
-		C8E8F4DAC423B4FE17B6CFF7A99D2307 /* RMPhoneFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3980CD4C13DBC468791711774659BB9A /* RMPhoneFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46ABCD01C4CABAFEF2D4E5E5791B354 /* Response.swift */; };
-		CE535FE2BC4505F287680ACEF558A723 /* BLPhoneFormattingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D1D408188CE6978FA7733827A9015A /* BLPhoneFormattingManager.m */; };
-		E8931253C0300E521B6EDF90F797CCCB /* PhoneCountries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29E23CA78919EB76917D7CB1D721557C /* PhoneCountries.txt */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B3D18C1B4A27429FF6561964DAD5D /* Notifications.swift */; };
-		F440AA355E476FB883C9556093585772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884F515E122723A996F44FD222DA5D6 /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818CAF74CB991BBA044D63BA6C620D5 /* Alamofire.swift */; };
-		FEA686F1561A7F3876B9BCAEA3ABE07E /* BLPhoneFormattingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C827C60F4D80DA9CAA520545C7DD53 /* BLPhoneFormattingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A080608E5E0995E523700EB6E8B18B0D /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 451A06EF9B97B8D3168CCA70A9B152DE /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1D2D2AED09438A60FBA6EFB0B612A92 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = C63F5F34B684B5F4D1F9C48641A9A0F4 /* POPAnimationEvent.mm */; };
+		A1E864C6D1E9FBA087D54C69F0EAC07B /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1283BF850BB2F03905154E71EE0DB79 /* POPVector.mm */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB65BFA5BA944A2C5B9BDB57FF6E239 /* NetworkReachabilityManager.swift */; };
+		A2B9353729EB1052EFF1A7AF32788860 /* BLCountriesUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1A6EB4F8204E71B74C227EC59C4065 /* BLCountriesUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F82893616DE9D84A82DE5109C56F7F /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FEFD9340473F77023E8B9B1D60B26F /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5AB43B8BC2164829BA0635E67604DF3 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BBFA647EFD457A4FD2E350663345D3 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65D3E5CB3532D9110C6F2649DE34E60 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFAA48F9965E2C88914F040AC456653 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D8F7BE191203A1EC90C242772263DC /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F5A95B219733AF219884EB4D20A04A /* SessionManager.swift */; };
+		AFA9627A3ACB150B5EF68A7CAFDA1A71 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64C16588C7169617398BE47990CC1A30 /* POPAnimatableProperty.mm */; };
+		B15CF6E0BEDFD0A9D69862688C8F6DEB /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E759230D6F5EDF16C5249F19F3E076 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1BC1EC57F7632B72546531E9E3E9714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B54243611D7BDEA9186E21494C1CD6ED /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F632C9178BD84EFC64693402BFD64F2 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF10F23E6C0F362C47EF86F9FA2E7C5 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A5CF1163CCEDC47BFF55CE2C1B8A8 /* Validation.swift */; };
+		BD3657C26B1C3565F860278955481AF0 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = F71B4892A85C73E0589CA334160E528E /* POPCGUtils.mm */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DAC737B4C5F8F3B5484CF913E772A7 /* ParameterEncoding.swift */; };
+		BF713790DC2ED95FF740E6D8B61906C3 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B3AC45B36B97839DA6A4E762C8BA6D /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0CF60035C0FC6A7FA7C17D85127EB16 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FA85BBD3BC0489AC85F6A903189E512C /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C39FE6DFAEAFF36C888CFA570349EE3F /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6B79A7C3318DE90BC44588D40D35B1C /* POPSpringAnimation.mm */; };
+		C8E8F4DAC423B4FE17B6CFF7A99D2307 /* RMPhoneFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E055F34BAC5064FC22910EB835DBFD /* RMPhoneFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB8822D242A4B14DA95811EB84CED6 /* Response.swift */; };
+		CC66298C3EAEA42D8BECF9EA39E04241 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 57381CE2DB34570E79F30869E3D9E0AC /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE535FE2BC4505F287680ACEF558A723 /* BLPhoneFormattingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 941E69CB090ECE956671AC6582884348 /* BLPhoneFormattingManager.m */; };
+		CF416A68F5AE5DEDC7984238A624D63C /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A8CEB9DDF6907F629C514F7DDA1672 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D12959392F5A575687DC8016ACC87AC0 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FEEC356E3524940C150DD3629DEEE9 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D650E7BC881BDC5AE66676022F53101A /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B79078413AB354A0ACBA3B48C5740BA0 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D84EAB68525A610C8B5EE115258FEE7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DD2B7F39E511EB1DAA78426D7C46CAF4 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 91614C8F7852E47E5FD0510D9D591EC9 /* POPBasicAnimation.mm */; };
+		DE6FED79C8EE06340AB414F91E90684C /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EE01D173D3F98B79FD142E5095DFA215 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8931253C0300E521B6EDF90F797CCCB /* PhoneCountries.txt in Resources */ = {isa = PBXBuildFile; fileRef = A84D5661385F811F300C123001B659CA /* PhoneCountries.txt */; };
+		E92295DB622D4C28E8489A2B86F2CAA7 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 41595F07DD77A5AF0D0EC3F9BADF512B /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA39CE7D8A97B7233DE8DCDC4AA3BCE5 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7410CF505AD0C8C7C77883FB6B3FEE11 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA6222D300301E2EE801A12CA87D0936 /* BLContactsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9722DE670CDE17E0C2141AFF12DCF1C1 /* BLContactsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EE607B7DE5418E168403D6C45F196 /* Notifications.swift */; };
+		F397930F4167F4431A4EEFB72C171685 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = EE09107DA94B3EC12A6D3AB820ECC590 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F64F6548152BE6A47B504E0A81AA304F /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 57426975CAFA570EA7EFC11C9B53343C /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080DC86A0C4ACF630826CFD360EB937 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26564141D97EB933717E08F6AAD4846B /* Alamofire.swift */; };
+		FAAE88AAAD33B529070FEF030F41AA1F /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 000EA7D2C298CEE7F388298A2E31384B /* POPAnimationExtras.mm */; };
+		FDC06920406D6E67AFBEA70F5FA6839D /* BLContactsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B74970ABB44A0C73D7232E2D34B54E33 /* BLContactsViewController.bundle */; };
+		FDE47D9B36D45E6E8062C5425909BDDD /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FB933007BC8031BF0EE691DF31583CF7 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEA686F1561A7F3876B9BCAEA3ABE07E /* BLPhoneFormattingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4971F153D93DDE1D3A4CBFCA47D26761 /* BLPhoneFormattingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11D410A671EB5EBAA2FD866C20629DF8 /* PBXContainerItemProxy */ = {
+		4068852CA24AFB5FE6682CDA290B47AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEBFEBFE3D87F687C40AC8EE319E29ED;
-			remoteInfo = BLPhoneFormat;
+			remoteGlobalIDString = 8DF5A58CD514E8910187A816712B94B2;
+			remoteInfo = "BLContactsViewController-BLContactsViewController";
 		};
-		58364659B0102F9E9D0BF60F4E3E61EA /* PBXContainerItemProxy */ = {
+		7F8E09BB03CAEAFAF5340D16853CC050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E67D66CB9C7F1BED0A039243EC9D0857;
+			remoteInfo = pop;
+		};
+		8874FD6AC24E67DC097DCA37CBBEBF87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -66,66 +134,174 @@
 			remoteGlobalIDString = CC6FEA044AD2A7B33FC25F03DB9AA16F;
 			remoteInfo = "BLPhoneFormat-BLPhoneFormat";
 		};
+		DFB6EE4BB7BE4752AEBBB319A017BECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23768107051EC1ABC1506B127F61FE50;
+			remoteInfo = BLContactsViewController;
+		};
+		F9C2CFF316F1B18E64E043EDAB15BFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBFEBFE3D87F687C40AC8EE319E29ED;
+			remoteInfo = BLPhoneFormat;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0032D9FECA76CD7704BAC73C1878D59F /* BLCountriesUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLCountriesUtils.m; path = Pod/Classes/BLCountriesUtils.m; sourceTree = "<group>"; };
-		00C827C60F4D80DA9CAA520545C7DD53 /* BLPhoneFormattingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLPhoneFormattingManager.h; path = Pod/Classes/BLPhoneFormattingManager.h; sourceTree = "<group>"; };
-		05B0C64A721751861F6F4628C73BF359 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		0D3F25530EBEE0D3ECA0220FC783C902 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		12EAE88A2D819E6DBD0CF958D892412F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		15DB1639EB92090DD359025F98105B76 /* BLCountriesUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLCountriesUtils.h; path = Pod/Classes/BLCountriesUtils.h; sourceTree = "<group>"; };
-		1884F515E122723A996F44FD222DA5D6 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		230F4BA380AAB11A8E0724F895BB440B /* BLPhoneFormat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLPhoneFormat.xcconfig; sourceTree = "<group>"; };
+		000EA7D2C298CEE7F388298A2E31384B /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		00B3AC45B36B97839DA6A4E762C8BA6D /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		02DAC737B4C5F8F3B5484CF913E772A7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		09B1CA65C0125C69FECB0D8EC7407E6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2A6BCB3466C8560E4735543894865F /* BLPhoneFormat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BLPhoneFormat.bundle; path = BLPhoneFormat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDEA4F8831ADCBBD4BCCEFE597B652B /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		0ED19A9705EA792CD1A7A5D6921AC306 /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
+		13AE26579F992AF663B6495E491D4CA5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		13EA672498218B992C4E8D3B5A668058 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		15BDAF307F83757E34D0B5D9D6469990 /* BLPhoneFormat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLPhoneFormat-prefix.pch"; sourceTree = "<group>"; };
+		16010FAF16AE603261D9F4B7977C2F55 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16280164BD2FD70D25F3A41CA976E527 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		186A3156179D1B6A9A936238DBA9C4DF /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		1F5681BDDDB30ED83C5C85FAAC426FB8 /* BLContactsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLContactsViewController.m; path = Pod/Classes/BLContactsViewController.m; sourceTree = "<group>"; };
 		23DFE3E25EF7A1E41810B46416C355D4 /* Pods-OceanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OceanApp.debug.xcconfig"; sourceTree = "<group>"; };
-		24EA4166C46E9A15A811FCB51A5DEF6F /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		2518DEABBC47390212DBBC490CE0A1C3 /* Pods_OceanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OceanApp.framework; path = "Pods-OceanApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D8F7BE191203A1EC90C242772263DC /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		26068C6F03B318801BED5EB17CCADC7B /* Pods-OceanApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OceanApp-dummy.m"; sourceTree = "<group>"; };
-		29E23CA78919EB76917D7CB1D721557C /* PhoneCountries.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = PhoneCountries.txt; path = Pod/Assets/PhoneCountries.txt; sourceTree = "<group>"; };
-		3386F995775E7A818C47C4F358D3B102 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		34D1D408188CE6978FA7733827A9015A /* BLPhoneFormattingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLPhoneFormattingManager.m; path = Pod/Classes/BLPhoneFormattingManager.m; sourceTree = "<group>"; };
-		35E2B5EBD77D59356C2A593BF8A5436D /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		26564141D97EB933717E08F6AAD4846B /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		306B5538DE120CCD980D6DD8C93801CC /* BLContacts.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; name = BLContacts.storyboard; path = Pod/Assets/BLContacts.storyboard; sourceTree = "<group>"; };
+		35B1F2127C6638910C79D41E6F765D55 /* BLContactsViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLContactsViewController-umbrella.h"; sourceTree = "<group>"; };
+		36E055F34BAC5064FC22910EB835DBFD /* RMPhoneFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMPhoneFormat.h; path = Pod/Classes/RMPhoneFormat.h; sourceTree = "<group>"; };
 		36EB4EC4BB3B0B1C3A988D558DF28687 /* Pods-OceanApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OceanApp-frameworks.sh"; sourceTree = "<group>"; };
-		3980CD4C13DBC468791711774659BB9A /* RMPhoneFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMPhoneFormat.h; path = Pod/Classes/RMPhoneFormat.h; sourceTree = "<group>"; };
-		3EA382C4929C95270E16033E3EFB64DD /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		4065BC95B57EA0EBFF0892D71DB9223B /* BLPhoneFormat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLPhoneFormat-umbrella.h"; sourceTree = "<group>"; };
-		481A67F8EF6D59C0F7CFEFD248387B56 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BBFA647EFD457A4FD2E350663345D3 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		3F0AA097D28E09F97E05DEA2981CCC8C /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		3F2AF0FF29C17889808FE238ECA42951 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		41595F07DD77A5AF0D0EC3F9BADF512B /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		41F5A95B219733AF219884EB4D20A04A /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		43A8CEB9DDF6907F629C514F7DDA1672 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		43C67376EFA9D56EFD6E9633E8D2D256 /* BLPhoneFormat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLPhoneFormat.xcconfig; sourceTree = "<group>"; };
+		451A06EF9B97B8D3168CCA70A9B152DE /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		47419BA3A13D05291B8D293EB9E3D565 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		47C19AECA31CBEAA430B53D02765276F /* BLContactsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLContactsViewController.framework; path = BLContactsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FEEC356E3524940C150DD3629DEEE9 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		4971F153D93DDE1D3A4CBFCA47D26761 /* BLPhoneFormattingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLPhoneFormattingManager.h; path = Pod/Classes/BLPhoneFormattingManager.h; sourceTree = "<group>"; };
 		4B09ADFDE2891F642C9EDFA479E09BA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C5D4F2A7C8A273DF44600736BEA9079 /* PhoneFormats.dat */ = {isa = PBXFileReference; includeInIndex = 1; name = PhoneFormats.dat; path = Pod/Assets/PhoneFormats.dat; sourceTree = "<group>"; };
+		4DE5E7141548C490F997F6DAC18D5B8C /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		4E18C7244BAC63CFAA0238255B833BCF /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		4EC2E8727D11EF107D9AE231AF68DC19 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
 		4EC73CE85A123517DE5D7EB2B537916C /* Pods-OceanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OceanApp.release.xcconfig"; sourceTree = "<group>"; };
+		4F632C9178BD84EFC64693402BFD64F2 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		4FB32033EBB028DEBB7FDD494801B59F /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		53E43AF29BC4CCB0BF8B90A6FFF2B0BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54D5F368013767135D76F54D56E475DF /* Pods-OceanApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OceanApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		56233729CE0C5A3DDA05234FB55559D1 /* RMPhoneFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMPhoneFormat.m; path = Pod/Classes/RMPhoneFormat.m; sourceTree = "<group>"; };
-		5C4430EB8394BF9CC6AA23146E4013AB /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		568204FD144BD8A88E86E827B67AC4C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57381CE2DB34570E79F30869E3D9E0AC /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		57426975CAFA570EA7EFC11C9B53343C /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		59FEFD9340473F77023E8B9B1D60B26F /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		5D196FC500C1DF8CA1EB9708EC87E309 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		5DF10F23E6C0F362C47EF86F9FA2E7C5 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		60B435AD56389475BB4D25B748813307 /* Pods-OceanApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OceanApp-umbrella.h"; sourceTree = "<group>"; };
-		64B3420A9EA43371B142A5409B85A362 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6818CAF74CB991BBA044D63BA6C620D5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		6ABCB62EE43412B3EC339797146DA4B8 /* BLPhoneFormat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BLPhoneFormat.bundle; path = BLPhoneFormat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B2A2B0B1C058EC93CE12EA0C04760D3 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		6D725713436798775BE9EB85D27B070F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		62FB8822D242A4B14DA95811EB84CED6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		64C16588C7169617398BE47990CC1A30 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		6CD4E6E8E52532154CB3973930AF0007 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		6CDA9995CA0CA82485B3EFA7D4560C5F /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		6EE8EA90B154BC13905CCD1207595E71 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		7410CF505AD0C8C7C77883FB6B3FEE11 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		751674F256E661D3231C8FFE8422915D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		77D2747385B1A9B33366031C12009102 /* BLPhoneFormat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLPhoneFormat.framework; path = BLPhoneFormat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F405317FF219107BEC0F1C7A1C9D3E /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		7DBBCB5CCF5F34588383EDAC947034B2 /* BLContactsViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLContactsViewController.xcconfig; sourceTree = "<group>"; };
+		7ED8725009D633FB0A802992C2A9B3EE /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		7F4D78D4DE30B3A84CCD2DEEF93BF3D0 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		845707FB4201D80DC6F853521F49AB75 /* ResourceBundle-BLPhoneFormat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BLPhoneFormat-Info.plist"; sourceTree = "<group>"; };
+		84734F89FB7BB1E1A49FDC9BFD5FFE43 /* BLCountriesUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLCountriesUtils.m; path = Pod/Classes/BLCountriesUtils.m; sourceTree = "<group>"; };
+		87BCE45235A7D292F55A93988FC010B7 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		888A6AC334DB7AC9CEDA8557C041B9DF /* BLContactsViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLContactsViewController-prefix.pch"; sourceTree = "<group>"; };
+		8AF42C9178E24EFCCB2B11FEF3BAFC31 /* BLPhoneFormat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLPhoneFormat-dummy.m"; sourceTree = "<group>"; };
+		8EFAA48F9965E2C88914F040AC456653 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		8F7FABC70FDE30A5790959862BA3D7A1 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		9080DC86A0C4ACF630826CFD360EB937 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		91614C8F7852E47E5FD0510D9D591EC9 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		931F6A7FF58B1D65B73D27EF00070D51 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		93423C984CAE391E59FF42C0E21F5DA1 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A20DEC7256ACCAECD4C44161B9B954C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		941E69CB090ECE956671AC6582884348 /* BLPhoneFormattingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLPhoneFormattingManager.m; path = Pod/Classes/BLPhoneFormattingManager.m; sourceTree = "<group>"; };
+		9722DE670CDE17E0C2141AFF12DCF1C1 /* BLContactsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLContactsViewController.h; path = Pod/Classes/BLContactsViewController.h; sourceTree = "<group>"; };
+		9A72D701334F98B3C26F523A2806EA98 /* BLPhoneFormat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLPhoneFormat-umbrella.h"; sourceTree = "<group>"; };
+		9AB65BFA5BA944A2C5B9BDB57FF6E239 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		9DF0D0158426F8ECCAEAEFECFCCAEDF3 /* ResourceBundle-BLContactsViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BLContactsViewController-Info.plist"; sourceTree = "<group>"; };
 		9F071AA285533F4FB83C55C4270D935B /* Pods-OceanApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OceanApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A9A812139701737B96D294524D161396 /* ResourceBundle-BLPhoneFormat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BLPhoneFormat-Info.plist"; sourceTree = "<group>"; };
-		B42A24C6CEA5EB05F3D2BAF379E9C854 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B46ABCD01C4CABAFEF2D4E5E5791B354 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		B9629A158AF44456816741B7B6A59BE3 /* BLPhoneFormat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLPhoneFormat-prefix.pch"; sourceTree = "<group>"; };
-		BFC5AF45D8AF73FD41468ACA95CD1EF8 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		BFDC5F9D50DEB2C3D33E8AA46AAC2201 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		C017946002256BBE2063A5ACF5AAA5A7 /* Pods_OceanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OceanApp.framework; path = "Pods-OceanApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C42B0A227F60FFFE785FE81991573D65 /* BLPhoneFormat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLPhoneFormat.framework; path = BLPhoneFormat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A046BA4C92F278156B83ECE244B3C949 /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = pop.modulemap; sourceTree = "<group>"; };
+		A13CA839D9D0B42B8511D43FF280DC56 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		A6E1C75CEAFB12491231A4A1DA7139D0 /* BLPhoneFormat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLPhoneFormat.modulemap; sourceTree = "<group>"; };
+		A84D5661385F811F300C123001B659CA /* PhoneCountries.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = PhoneCountries.txt; path = Pod/Assets/PhoneCountries.txt; sourceTree = "<group>"; };
+		ADB32CED6BB7E0EC50481AA7FF9773A8 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		ADCCD9C1C8C6E3A52425D54F36F989C7 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		B0AE396BA6298CE0B804932F987C2680 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EC5D474146ADE4A5B3DFF3B4F74326 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		B49EE607B7DE5418E168403D6C45F196 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		B74970ABB44A0C73D7232E2D34B54E33 /* BLContactsViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BLContactsViewController.bundle; path = BLContactsViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79078413AB354A0ACBA3B48C5740BA0 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		B7D89FC5DDB0A8F8CDDE224D24FEE58D /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		BB2A5CF1163CCEDC47BFF55CE2C1B8A8 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		C63F5F34B684B5F4D1F9C48641A9A0F4 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		C6B79A7C3318DE90BC44588D40D35B1C /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		C9B6A6CC9FCD71C9AF7B450EB605AC9C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		CB82EB1953466A596592A83EB62F95B7 /* Pods-OceanApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OceanApp-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CCEE7EFA1ED998920BB3890DE13F97FC /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		CFD4BA57E020C001C76F78F503331A9F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		D0905ACD693B01D0AF82BED29BD88379 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		D341C49C75D433E81B33505FF06D8C04 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D3495D9A97F52783C47D3849AC7F43D5 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		D608FD35F98C10FEB5B0969A0C325ED0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		DCC16F928FFF6991F3FC3881F13951D1 /* Pods-OceanApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OceanApp.modulemap"; sourceTree = "<group>"; };
-		E4F03645516BD7475268CE327A0A67F6 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		E84B3D18C1B4A27429FF6561964DAD5D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		E890167EE2B92EF4B9FCB31B42C316B6 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		E98BB57762945F9DB4FB20A9CA68BB73 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		F6C2C98F091132E8A43A8E809BE45690 /* BLPhoneFormat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLPhoneFormat-dummy.m"; sourceTree = "<group>"; };
-		F6F6462036948E84CFD76562EAC21584 /* BLPhoneFormat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLPhoneFormat.modulemap; sourceTree = "<group>"; };
+		DCE0B3732BF8BCD5D88BE789B9BB8F5F /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		DEA529E968206A105CA64C6A57C96C2A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		E11F481B9EF6AC44677B018C012C0043 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		E18E569180D90B57FD6125AAA2D75623 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		E2CEDE429C22192DAF78B36191B096C2 /* BLContactsViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLContactsViewController-dummy.m"; sourceTree = "<group>"; };
+		E9DB88E301CB5B75089195C9A404BD04 /* RMPhoneFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMPhoneFormat.m; path = Pod/Classes/RMPhoneFormat.m; sourceTree = "<group>"; };
+		EBD2B84915B81FABBEF0EE95BC02132C /* PhoneFormats.dat */ = {isa = PBXFileReference; includeInIndex = 1; name = PhoneFormats.dat; path = Pod/Assets/PhoneFormats.dat; sourceTree = "<group>"; };
+		EE01D173D3F98B79FD142E5095DFA215 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		EE09107DA94B3EC12A6D3AB820ECC590 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		F0273F1C593C191FE5C71AA613940267 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		F1283BF850BB2F03905154E71EE0DB79 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		F38411197E3A1E5F0A283E8B09D31059 /* BLContactsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BLContactsViewController.modulemap; sourceTree = "<group>"; };
+		F71B4892A85C73E0589CA334160E528E /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		F8C9F290B6463BBB16F27A97E46CA50E /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		F9E759230D6F5EDF16C5249F19F3E076 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		F9F3BD2190ED4622E72CF87F7F272DB4 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		FA85BBD3BC0489AC85F6A903189E512C /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		FB933007BC8031BF0EE691DF31583CF7 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		FD07091FDCE1AD4444B66E4A7BD738B0 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1A6EB4F8204E71B74C227EC59C4065 /* BLCountriesUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLCountriesUtils.h; path = Pod/Classes/BLCountriesUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		16A494FAC25485C666126570A0919FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BC1EC57F7632B72546531E9E3E9714 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC2F35B5CE351071F8AE173AE65CD31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB4FE73BA42D9A4F78622BCC895D372 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0A48E48053DF6165E5F73CE16F39FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84EAB68525A610C8B5EE115258FEE7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B9A06D308608163BA5EAD4227E3A175 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +318,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A87F4487D9F080C2E9FB3DC8816596A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE3031C5D097117CCAD6D0C3A40F308C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,81 +332,126 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D561F3C40E4AE4A7C50A0982F3CFD3E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F440AA355E476FB883C9556093585772 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6330FAB62760706BCC0F59247B59EECF /* Alamofire */ = {
+		0DB8D38ABA2AFD46EBCF45FC87DAAE03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6D725713436798775BE9EB85D27B070F /* AFError.swift */,
-				6818CAF74CB991BBA044D63BA6C620D5 /* Alamofire.swift */,
-				3EA382C4929C95270E16033E3EFB64DD /* DispatchQueue+Alamofire.swift */,
-				5C4430EB8394BF9CC6AA23146E4013AB /* MultipartFormData.swift */,
-				12EAE88A2D819E6DBD0CF958D892412F /* NetworkReachabilityManager.swift */,
-				E84B3D18C1B4A27429FF6561964DAD5D /* Notifications.swift */,
-				BFDC5F9D50DEB2C3D33E8AA46AAC2201 /* ParameterEncoding.swift */,
-				9A20DEC7256ACCAECD4C44161B9B954C /* Request.swift */,
-				B46ABCD01C4CABAFEF2D4E5E5791B354 /* Response.swift */,
-				1884F515E122723A996F44FD222DA5D6 /* ResponseSerialization.swift */,
-				BFC5AF45D8AF73FD41468ACA95CD1EF8 /* Result.swift */,
-				CFD4BA57E020C001C76F78F503331A9F /* ServerTrustPolicy.swift */,
-				24EA4166C46E9A15A811FCB51A5DEF6F /* SessionDelegate.swift */,
-				35E2B5EBD77D59356C2A593BF8A5436D /* SessionManager.swift */,
-				3386F995775E7A818C47C4F358D3B102 /* TaskDelegate.swift */,
-				E4F03645516BD7475268CE327A0A67F6 /* Timeline.swift */,
-				0D3F25530EBEE0D3ECA0220FC783C902 /* Validation.swift */,
-				735AB981589077136E0A49D10FC2BB4C /* Support Files */,
+				306B5538DE120CCD980D6DD8C93801CC /* BLContacts.storyboard */,
 			);
-			name = Alamofire;
-			path = Alamofire;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		71E60C1B0511FF8F7A4C38B03F362D6C /* Support Files */ = {
+		2039DBE75554E574EEF7660694BA9169 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F6F6462036948E84CFD76562EAC21584 /* BLPhoneFormat.modulemap */,
-				230F4BA380AAB11A8E0724F895BB440B /* BLPhoneFormat.xcconfig */,
-				F6C2C98F091132E8A43A8E809BE45690 /* BLPhoneFormat-dummy.m */,
-				B9629A158AF44456816741B7B6A59BE3 /* BLPhoneFormat-prefix.pch */,
-				4065BC95B57EA0EBFF0892D71DB9223B /* BLPhoneFormat-umbrella.h */,
-				64B3420A9EA43371B142A5409B85A362 /* Info.plist */,
-				A9A812139701737B96D294524D161396 /* ResourceBundle-BLPhoneFormat-Info.plist */,
+				A84D5661385F811F300C123001B659CA /* PhoneCountries.txt */,
+				EBD2B84915B81FABBEF0EE95BC02132C /* PhoneFormats.dat */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2638F55E45450A60A78D7C799E109C74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D95552186DAE3D817C6FE7D6FA85425F /* Alamofire */,
+				7D4583B33090364318BAAACB4B90B43F /* BLContactsViewController */,
+				425DF106FFFD44988305F4CA5FFC9D3F /* BLPhoneFormat */,
+				3DF722C7B8F627E40CF4981567B408CE /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34F14DD0D8F412FA597300468B70245C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38411197E3A1E5F0A283E8B09D31059 /* BLContactsViewController.modulemap */,
+				7DBBCB5CCF5F34588383EDAC947034B2 /* BLContactsViewController.xcconfig */,
+				E2CEDE429C22192DAF78B36191B096C2 /* BLContactsViewController-dummy.m */,
+				888A6AC334DB7AC9CEDA8557C041B9DF /* BLContactsViewController-prefix.pch */,
+				35B1F2127C6638910C79D41E6F765D55 /* BLContactsViewController-umbrella.h */,
+				09B1CA65C0125C69FECB0D8EC7407E6C /* Info.plist */,
+				9DF0D0158426F8ECCAEAEFECFCCAEDF3 /* ResourceBundle-BLContactsViewController-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/BLPhoneFormat";
+			path = "../Target Support Files/BLContactsViewController";
 			sourceTree = "<group>";
 		};
-		735AB981589077136E0A49D10FC2BB4C /* Support Files */ = {
+		3DF722C7B8F627E40CF4981567B408CE /* pop */ = {
 			isa = PBXGroup;
 			children = (
-				E890167EE2B92EF4B9FCB31B42C316B6 /* Alamofire.modulemap */,
-				6B2A2B0B1C058EC93CE12EA0C04760D3 /* Alamofire.xcconfig */,
-				05B0C64A721751861F6F4628C73BF359 /* Alamofire-dummy.m */,
-				CCEE7EFA1ED998920BB3890DE13F97FC /* Alamofire-prefix.pch */,
-				E98BB57762945F9DB4FB20A9CA68BB73 /* Alamofire-umbrella.h */,
-				B42A24C6CEA5EB05F3D2BAF379E9C854 /* Info.plist */,
+				451A06EF9B97B8D3168CCA70A9B152DE /* FloatConversion.h */,
+				EE09107DA94B3EC12A6D3AB820ECC590 /* POP.h */,
+				47FEEC356E3524940C150DD3629DEEE9 /* POPAction.h */,
+				8EFAA48F9965E2C88914F040AC456653 /* POPAnimatableProperty.h */,
+				64C16588C7169617398BE47990CC1A30 /* POPAnimatableProperty.mm */,
+				57381CE2DB34570E79F30869E3D9E0AC /* POPAnimation.h */,
+				E11F481B9EF6AC44677B018C012C0043 /* POPAnimation.mm */,
+				4F632C9178BD84EFC64693402BFD64F2 /* POPAnimationEvent.h */,
+				C63F5F34B684B5F4D1F9C48641A9A0F4 /* POPAnimationEvent.mm */,
+				B79078413AB354A0ACBA3B48C5740BA0 /* POPAnimationEventInternal.h */,
+				DCE0B3732BF8BCD5D88BE789B9BB8F5F /* POPAnimationExtras.h */,
+				000EA7D2C298CEE7F388298A2E31384B /* POPAnimationExtras.mm */,
+				43A8CEB9DDF6907F629C514F7DDA1672 /* POPAnimationInternal.h */,
+				A13CA839D9D0B42B8511D43FF280DC56 /* POPAnimationPrivate.h */,
+				6CDA9995CA0CA82485B3EFA7D4560C5F /* POPAnimationRuntime.h */,
+				77F405317FF219107BEC0F1C7A1C9D3E /* POPAnimationRuntime.mm */,
+				57426975CAFA570EA7EFC11C9B53343C /* POPAnimationTracer.h */,
+				93423C984CAE391E59FF42C0E21F5DA1 /* POPAnimationTracer.mm */,
+				87BCE45235A7D292F55A93988FC010B7 /* POPAnimationTracerInternal.h */,
+				3F2AF0FF29C17889808FE238ECA42951 /* POPAnimator.h */,
+				0BDEA4F8831ADCBBD4BCCEFE597B652B /* POPAnimator.mm */,
+				EE01D173D3F98B79FD142E5095DFA215 /* POPAnimatorPrivate.h */,
+				F8C9F290B6463BBB16F27A97E46CA50E /* POPBasicAnimation.h */,
+				91614C8F7852E47E5FD0510D9D591EC9 /* POPBasicAnimation.mm */,
+				6CD4E6E8E52532154CB3973930AF0007 /* POPBasicAnimationInternal.h */,
+				7410CF505AD0C8C7C77883FB6B3FEE11 /* POPCGUtils.h */,
+				F71B4892A85C73E0589CA334160E528E /* POPCGUtils.mm */,
+				16280164BD2FD70D25F3A41CA976E527 /* POPCustomAnimation.h */,
+				4DE5E7141548C490F997F6DAC18D5B8C /* POPCustomAnimation.mm */,
+				B2EC5D474146ADE4A5B3DFF3B4F74326 /* POPDecayAnimation.h */,
+				4EC2E8727D11EF107D9AE231AF68DC19 /* POPDecayAnimation.mm */,
+				FA85BBD3BC0489AC85F6A903189E512C /* POPDecayAnimationInternal.h */,
+				F9E759230D6F5EDF16C5249F19F3E076 /* POPDefines.h */,
+				E18E569180D90B57FD6125AAA2D75623 /* POPGeometry.h */,
+				47419BA3A13D05291B8D293EB9E3D565 /* POPGeometry.mm */,
+				37BBFA647EFD457A4FD2E350663345D3 /* POPLayerExtras.h */,
+				ADCCD9C1C8C6E3A52425D54F36F989C7 /* POPLayerExtras.mm */,
+				4FB32033EBB028DEBB7FDD494801B59F /* POPMath.h */,
+				B7D89FC5DDB0A8F8CDDE224D24FEE58D /* POPMath.mm */,
+				6EE8EA90B154BC13905CCD1207595E71 /* POPPropertyAnimation.h */,
+				13EA672498218B992C4E8D3B5A668058 /* POPPropertyAnimation.mm */,
+				F0273F1C593C191FE5C71AA613940267 /* POPPropertyAnimationInternal.h */,
+				41595F07DD77A5AF0D0EC3F9BADF512B /* POPSpringAnimation.h */,
+				C6B79A7C3318DE90BC44588D40D35B1C /* POPSpringAnimation.mm */,
+				FB933007BC8031BF0EE691DF31583CF7 /* POPSpringAnimationInternal.h */,
+				F9F3BD2190ED4622E72CF87F7F272DB4 /* POPSpringSolver.h */,
+				59FEFD9340473F77023E8B9B1D60B26F /* POPVector.h */,
+				F1283BF850BB2F03905154E71EE0DB79 /* POPVector.mm */,
+				4E18C7244BAC63CFAA0238255B833BCF /* TransformationMatrix.cpp */,
+				D0905ACD693B01D0AF82BED29BD88379 /* TransformationMatrix.h */,
+				00B3AC45B36B97839DA6A4E762C8BA6D /* UnitBezier.h */,
+				B82F005DA1CADF049F8CD249BC1D0BE3 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			name = pop;
+			path = pop;
 			sourceTree = "<group>";
 		};
-		7512FA2D2CAD77410F5B262A3E39B8A0 /* Products */ = {
+		425DF106FFFD44988305F4CA5FFC9D3F /* BLPhoneFormat */ = {
 			isa = PBXGroup;
 			children = (
-				481A67F8EF6D59C0F7CFEFD248387B56 /* Alamofire.framework */,
-				6ABCB62EE43412B3EC339797146DA4B8 /* BLPhoneFormat.bundle */,
-				C42B0A227F60FFFE785FE81991573D65 /* BLPhoneFormat.framework */,
-				C017946002256BBE2063A5ACF5AAA5A7 /* Pods_OceanApp.framework */,
+				FD1A6EB4F8204E71B74C227EC59C4065 /* BLCountriesUtils.h */,
+				84734F89FB7BB1E1A49FDC9BFD5FFE43 /* BLCountriesUtils.m */,
+				4971F153D93DDE1D3A4CBFCA47D26761 /* BLPhoneFormattingManager.h */,
+				941E69CB090ECE956671AC6582884348 /* BLPhoneFormattingManager.m */,
+				36E055F34BAC5064FC22910EB835DBFD /* RMPhoneFormat.h */,
+				E9DB88E301CB5B75089195C9A404BD04 /* RMPhoneFormat.m */,
+				2039DBE75554E574EEF7660694BA9169 /* Resources */,
+				F7C9A604EF961F927C57D2BF947A95D8 /* Support Files */,
 			);
-			name = Products;
+			name = BLPhoneFormat;
+			path = BLPhoneFormat;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -234,40 +462,55 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		76B2A50E3D79E1D91A465F7E19E6F722 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				751674F256E661D3231C8FFE8422915D /* Alamofire.modulemap */,
+				D3495D9A97F52783C47D3849AC7F43D5 /* Alamofire.xcconfig */,
+				25D8F7BE191203A1EC90C242772263DC /* Alamofire-dummy.m */,
+				C9B6A6CC9FCD71C9AF7B450EB605AC9C /* Alamofire-prefix.pch */,
+				D341C49C75D433E81B33505FF06D8C04 /* Alamofire-umbrella.h */,
+				B0AE396BA6298CE0B804932F987C2680 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		7D4583B33090364318BAAACB4B90B43F /* BLContactsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9722DE670CDE17E0C2141AFF12DCF1C1 /* BLContactsViewController.h */,
+				1F5681BDDDB30ED83C5C85FAAC426FB8 /* BLContactsViewController.m */,
+				0DB8D38ABA2AFD46EBCF45FC87DAAE03 /* Resources */,
+				34F14DD0D8F412FA597300468B70245C /* Support Files */,
+			);
+			name = BLContactsViewController;
+			path = BLContactsViewController;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DB6F218082B44DA73EA1D4C8CDA5C95C /* Pods */,
-				7512FA2D2CAD77410F5B262A3E39B8A0 /* Products */,
+				2638F55E45450A60A78D7C799E109C74 /* Pods */,
+				D6261E0D207E313BF9FDC8C9E509B608 /* Products */,
 				E39CD88488909C56D419562D1B47BE61 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		817C12B71B5D6CCCFED739A7A7E26BD7 /* BLPhoneFormat */ = {
+		B82F005DA1CADF049F8CD249BC1D0BE3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				15DB1639EB92090DD359025F98105B76 /* BLCountriesUtils.h */,
-				0032D9FECA76CD7704BAC73C1878D59F /* BLCountriesUtils.m */,
-				00C827C60F4D80DA9CAA520545C7DD53 /* BLPhoneFormattingManager.h */,
-				34D1D408188CE6978FA7733827A9015A /* BLPhoneFormattingManager.m */,
-				3980CD4C13DBC468791711774659BB9A /* RMPhoneFormat.h */,
-				56233729CE0C5A3DDA05234FB55559D1 /* RMPhoneFormat.m */,
-				9B626EF1FEBF25D7B321EC197BEBE42A /* Resources */,
-				71E60C1B0511FF8F7A4C38B03F362D6C /* Support Files */,
+				568204FD144BD8A88E86E827B67AC4C5 /* Info.plist */,
+				A046BA4C92F278156B83ECE244B3C949 /* pop.modulemap */,
+				3F0AA097D28E09F97E05DEA2981CCC8C /* pop.xcconfig */,
+				7ED8725009D633FB0A802992C2A9B3EE /* pop-dummy.m */,
+				8F7FABC70FDE30A5790959862BA3D7A1 /* pop-prefix.pch */,
+				0ED19A9705EA792CD1A7A5D6921AC306 /* pop-umbrella.h */,
 			);
-			name = BLPhoneFormat;
-			path = BLPhoneFormat;
-			sourceTree = "<group>";
-		};
-		9B626EF1FEBF25D7B321EC197BEBE42A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				29E23CA78919EB76917D7CB1D721557C /* PhoneCountries.txt */,
-				4C5D4F2A7C8A273DF44600736BEA9079 /* PhoneFormats.dat */,
-			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/pop";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -296,13 +539,44 @@
 			path = "Target Support Files/Pods-OceanApp";
 			sourceTree = "<group>";
 		};
-		DB6F218082B44DA73EA1D4C8CDA5C95C /* Pods */ = {
+		D6261E0D207E313BF9FDC8C9E509B608 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6330FAB62760706BCC0F59247B59EECF /* Alamofire */,
-				817C12B71B5D6CCCFED739A7A7E26BD7 /* BLPhoneFormat */,
+				16010FAF16AE603261D9F4B7977C2F55 /* Alamofire.framework */,
+				B74970ABB44A0C73D7232E2D34B54E33 /* BLContactsViewController.bundle */,
+				47C19AECA31CBEAA430B53D02765276F /* BLContactsViewController.framework */,
+				0B2A6BCB3466C8560E4735543894865F /* BLPhoneFormat.bundle */,
+				77D2747385B1A9B33366031C12009102 /* BLPhoneFormat.framework */,
+				2518DEABBC47390212DBBC490CE0A1C3 /* Pods_OceanApp.framework */,
+				FD07091FDCE1AD4444B66E4A7BD738B0 /* pop.framework */,
 			);
-			name = Pods;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95552186DAE3D817C6FE7D6FA85425F /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				5D196FC500C1DF8CA1EB9708EC87E309 /* AFError.swift */,
+				26564141D97EB933717E08F6AAD4846B /* Alamofire.swift */,
+				DEA529E968206A105CA64C6A57C96C2A /* DispatchQueue+Alamofire.swift */,
+				5DF10F23E6C0F362C47EF86F9FA2E7C5 /* MultipartFormData.swift */,
+				9AB65BFA5BA944A2C5B9BDB57FF6E239 /* NetworkReachabilityManager.swift */,
+				B49EE607B7DE5418E168403D6C45F196 /* Notifications.swift */,
+				02DAC737B4C5F8F3B5484CF913E772A7 /* ParameterEncoding.swift */,
+				186A3156179D1B6A9A936238DBA9C4DF /* Request.swift */,
+				62FB8822D242A4B14DA95811EB84CED6 /* Response.swift */,
+				9080DC86A0C4ACF630826CFD360EB937 /* ResponseSerialization.swift */,
+				7F4D78D4DE30B3A84CCD2DEEF93BF3D0 /* Result.swift */,
+				13AE26579F992AF663B6495E491D4CA5 /* ServerTrustPolicy.swift */,
+				D608FD35F98C10FEB5B0969A0C325ED0 /* SessionDelegate.swift */,
+				41F5A95B219733AF219884EB4D20A04A /* SessionManager.swift */,
+				ADB32CED6BB7E0EC50481AA7FF9773A8 /* TaskDelegate.swift */,
+				931F6A7FF58B1D65B73D27EF00070D51 /* Timeline.swift */,
+				BB2A5CF1163CCEDC47BFF55CE2C1B8A8 /* Validation.swift */,
+				76B2A50E3D79E1D91A465F7E19E6F722 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		E39CD88488909C56D419562D1B47BE61 /* Targets Support Files */ = {
@@ -313,9 +587,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F7C9A604EF961F927C57D2BF947A95D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E1C75CEAFB12491231A4A1DA7139D0 /* BLPhoneFormat.modulemap */,
+				43C67376EFA9D56EFD6E9633E8D2D256 /* BLPhoneFormat.xcconfig */,
+				8AF42C9178E24EFCCB2B11FEF3BAFC31 /* BLPhoneFormat-dummy.m */,
+				15BDAF307F83757E34D0B5D9D6469990 /* BLPhoneFormat-prefix.pch */,
+				9A72D701334F98B3C26F523A2806EA98 /* BLPhoneFormat-umbrella.h */,
+				53E43AF29BC4CCB0BF8B90A6FFF2B0BD /* Info.plist */,
+				845707FB4201D80DC6F853521F49AB75 /* ResourceBundle-BLPhoneFormat-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BLPhoneFormat";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6ACA27937C62BC29D6CE2645DAA9B8A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16025D538D5BB392DB36B26F2EC03296 /* BLContactsViewController-umbrella.h in Headers */,
+				EA6222D300301E2EE801A12CA87D0936 /* BLContactsViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83B17F6C78023BACD793AFAD3A5E8C44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +625,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8E16D6676545406FBE38761CA70BC45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439EBB1CBC4FBC40F7C271E86E012A16 /* Pods-OceanApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,34 +641,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F625AEB3826EF7207D3A67CF232F4228 /* Headers */ = {
+		F8ACDCBFDD5C22FFC4441AD8C6031DE6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53F8FD351415841109399D4AF7B586F /* Pods-OceanApp-umbrella.h in Headers */,
+				A080608E5E0995E523700EB6E8B18B0D /* FloatConversion.h in Headers */,
+				53A592E1AC130F9B895FD3CEFD97AF3A /* pop-umbrella.h in Headers */,
+				F397930F4167F4431A4EEFB72C171685 /* POP.h in Headers */,
+				D12959392F5A575687DC8016ACC87AC0 /* POPAction.h in Headers */,
+				A65D3E5CB3532D9110C6F2649DE34E60 /* POPAnimatableProperty.h in Headers */,
+				CC66298C3EAEA42D8BECF9EA39E04241 /* POPAnimation.h in Headers */,
+				B54243611D7BDEA9186E21494C1CD6ED /* POPAnimationEvent.h in Headers */,
+				D650E7BC881BDC5AE66676022F53101A /* POPAnimationEventInternal.h in Headers */,
+				7943904A6E8B3EBDEBF8DCFC63E4C0AA /* POPAnimationExtras.h in Headers */,
+				CF416A68F5AE5DEDC7984238A624D63C /* POPAnimationInternal.h in Headers */,
+				013042A86EC06116DA329F606C793035 /* POPAnimationPrivate.h in Headers */,
+				403D89132A3727D4C354BC36193C55C0 /* POPAnimationRuntime.h in Headers */,
+				F64F6548152BE6A47B504E0A81AA304F /* POPAnimationTracer.h in Headers */,
+				4E9AE607D231B402B5BFF0FA9156E6ED /* POPAnimationTracerInternal.h in Headers */,
+				74266F858D29EA4C7460E6D6908B881F /* POPAnimator.h in Headers */,
+				DE6FED79C8EE06340AB414F91E90684C /* POPAnimatorPrivate.h in Headers */,
+				37DB7EC41BA96D3BC39E7CFC8DF73C3B /* POPBasicAnimation.h in Headers */,
+				41ACF4181BF912E0F35838D98AAA0653 /* POPBasicAnimationInternal.h in Headers */,
+				EA39CE7D8A97B7233DE8DCDC4AA3BCE5 /* POPCGUtils.h in Headers */,
+				9E55EAB0DA67E527AFA70A1C527996A9 /* POPCustomAnimation.h in Headers */,
+				2D7D3F0BCF1A17A3CFD5AC6D9D095F16 /* POPDecayAnimation.h in Headers */,
+				C0CF60035C0FC6A7FA7C17D85127EB16 /* POPDecayAnimationInternal.h in Headers */,
+				B15CF6E0BEDFD0A9D69862688C8F6DEB /* POPDefines.h in Headers */,
+				4F3E55713AC658F69F0AA5A01AA8B788 /* POPGeometry.h in Headers */,
+				A5AB43B8BC2164829BA0635E67604DF3 /* POPLayerExtras.h in Headers */,
+				6172A903A9D1D1CC83F54A4457979CA9 /* POPMath.h in Headers */,
+				1423CBFDFFC8A56977756FFBEE1F94C3 /* POPPropertyAnimation.h in Headers */,
+				78B36A22144372ABA72FECA36D4B13E2 /* POPPropertyAnimationInternal.h in Headers */,
+				E92295DB622D4C28E8489A2B86F2CAA7 /* POPSpringAnimation.h in Headers */,
+				FDE47D9B36D45E6E8062C5425909BDDD /* POPSpringAnimationInternal.h in Headers */,
+				6D9CF139CAF6AFC6839E44704DD806CD /* POPSpringSolver.h in Headers */,
+				A4F82893616DE9D84A82DE5109C56F7F /* POPVector.h in Headers */,
+				2792AB12EC05509F2FFC4920019E9816 /* TransformationMatrix.h in Headers */,
+				BF713790DC2ED95FF740E6D8B61906C3 /* UnitBezier.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5CA09B6A2C6A979B018459F3FB135548 /* Pods-OceanApp */ = {
+		23768107051EC1ABC1506B127F61FE50 /* BLContactsViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7FCC42DD92165DB3D8876974BD1EEA7 /* Build configuration list for PBXNativeTarget "Pods-OceanApp" */;
+			buildConfigurationList = ED3C052AB64CB42EB4BB7BE2DF8EEA71 /* Build configuration list for PBXNativeTarget "BLContactsViewController" */;
 			buildPhases = (
-				519A32F1F97558BA7AE0FD83466962E6 /* Sources */,
-				D561F3C40E4AE4A7C50A0982F3CFD3E6 /* Frameworks */,
-				F625AEB3826EF7207D3A67CF232F4228 /* Headers */,
+				55D8B6C2C53DCCACBF41030AA9478D85 /* Sources */,
+				1BC2F35B5CE351071F8AE173AE65CD31 /* Frameworks */,
+				95846D276C247BAA641E1DBF8871EA3F /* Resources */,
+				6ACA27937C62BC29D6CE2645DAA9B8A7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1CFC03E3BC7AACA9FFBACEB054A04A41 /* PBXTargetDependency */,
-				824F78F1F5F68EC08337831757C77579 /* PBXTargetDependency */,
+				E88A23370B26E7193489036F1AEFC556 /* PBXTargetDependency */,
 			);
-			name = "Pods-OceanApp";
-			productName = "Pods-OceanApp";
-			productReference = C017946002256BBE2063A5ACF5AAA5A7 /* Pods_OceanApp.framework */;
+			name = BLContactsViewController;
+			productName = BLContactsViewController;
+			productReference = 47C19AECA31CBEAA430B53D02765276F /* BLContactsViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -379,8 +718,25 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 481A67F8EF6D59C0F7CFEFD248387B56 /* Alamofire.framework */;
+			productReference = 16010FAF16AE603261D9F4B7977C2F55 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		8DF5A58CD514E8910187A816712B94B2 /* BLContactsViewController-BLContactsViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BEA2B8CF4F13844D5BDC92E484AD2B /* Build configuration list for PBXNativeTarget "BLContactsViewController-BLContactsViewController" */;
+			buildPhases = (
+				DF738F80ACF1BC24A0E2473A4978400D /* Sources */,
+				A87F4487D9F080C2E9FB3DC8816596A5 /* Frameworks */,
+				8B3F80A9F8A3B8BFD8972AB9ECD32727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLContactsViewController-BLContactsViewController";
+			productName = "BLContactsViewController-BLContactsViewController";
+			productReference = B74970ABB44A0C73D7232E2D34B54E33 /* BLContactsViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		CC6FEA044AD2A7B33FC25F03DB9AA16F /* BLPhoneFormat-BLPhoneFormat */ = {
 			isa = PBXNativeTarget;
@@ -396,7 +752,7 @@
 			);
 			name = "BLPhoneFormat-BLPhoneFormat";
 			productName = "BLPhoneFormat-BLPhoneFormat";
-			productReference = 6ABCB62EE43412B3EC339797146DA4B8 /* BLPhoneFormat.bundle */;
+			productReference = 0B2A6BCB3466C8560E4735543894865F /* BLPhoneFormat.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DEBFEBFE3D87F687C40AC8EE319E29ED /* BLPhoneFormat */ = {
@@ -415,7 +771,45 @@
 			);
 			name = BLPhoneFormat;
 			productName = BLPhoneFormat;
-			productReference = C42B0A227F60FFFE785FE81991573D65 /* BLPhoneFormat.framework */;
+			productReference = 77D2747385B1A9B33366031C12009102 /* BLPhoneFormat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E67D66CB9C7F1BED0A039243EC9D0857 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF9D78FCC99E077D120EAE547DA84BE /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				513CAF807A402141DE5B64A019D7771A /* Sources */,
+				16A494FAC25485C666126570A0919FA5 /* Frameworks */,
+				F8ACDCBFDD5C22FFC4441AD8C6031DE6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = FD07091FDCE1AD4444B66E4A7BD738B0 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E81F8876BA6F5F2725F36FDCF4B31335 /* Pods-OceanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE7AAD5D9DBAC5876869FC3F1AD185B /* Build configuration list for PBXNativeTarget "Pods-OceanApp" */;
+			buildPhases = (
+				D570828B8AA90BD419BDD617A92623BA /* Sources */,
+				6E0A48E48053DF6165E5F73CE16F39FC /* Frameworks */,
+				A8E16D6676545406FBE38761CA70BC45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42F7DBB64A8C3F204B8DB5183DB50D7 /* PBXTargetDependency */,
+				896921A81FEEC0D2454FA544E903FF25 /* PBXTargetDependency */,
+				BDFBBAE16A54E9F177BB753EF551437D /* PBXTargetDependency */,
+				7D87B95C39F941926D48A0DCC08B3789 /* PBXTargetDependency */,
+			);
+			name = "Pods-OceanApp";
+			productName = "Pods-OceanApp";
+			productReference = 2518DEABBC47390212DBBC490CE0A1C3 /* Pods_OceanApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -435,14 +829,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7512FA2D2CAD77410F5B262A3E39B8A0 /* Products */;
+			productRefGroup = D6261E0D207E313BF9FDC8C9E509B608 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				23768107051EC1ABC1506B127F61FE50 /* BLContactsViewController */,
+				8DF5A58CD514E8910187A816712B94B2 /* BLContactsViewController-BLContactsViewController */,
 				DEBFEBFE3D87F687C40AC8EE319E29ED /* BLPhoneFormat */,
 				CC6FEA044AD2A7B33FC25F03DB9AA16F /* BLPhoneFormat-BLPhoneFormat */,
-				5CA09B6A2C6A979B018459F3FB135548 /* Pods-OceanApp */,
+				E81F8876BA6F5F2725F36FDCF4B31335 /* Pods-OceanApp */,
+				E67D66CB9C7F1BED0A039243EC9D0857 /* pop */,
 			);
 		};
 /* End PBXProject section */
@@ -462,6 +859,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB6D3D69FBF81AFFABA6F22FDF6593F /* BLPhoneFormat.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3F80A9F8A3B8BFD8972AB9ECD32727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0121B417E31EE5D3BCCC39FF74A6E1 /* BLContacts.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95846D276C247BAA641E1DBF8871EA3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC06920406D6E67AFBEA70F5FA6839D /* BLContactsViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,28 +924,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		519A32F1F97558BA7AE0FD83466962E6 /* Sources */ = {
+		513CAF807A402141DE5B64A019D7771A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9307C8CBBC7420349A916866D77317 /* Pods-OceanApp-dummy.m in Sources */,
+				21B1277FBDF204AC8B8548910E7F7219 /* pop-dummy.m in Sources */,
+				AFA9627A3ACB150B5EF68A7CAFDA1A71 /* POPAnimatableProperty.mm in Sources */,
+				4DBD0544C13792EA7A37FC916012BA3C /* POPAnimation.mm in Sources */,
+				A1D2D2AED09438A60FBA6EFB0B612A92 /* POPAnimationEvent.mm in Sources */,
+				FAAE88AAAD33B529070FEF030F41AA1F /* POPAnimationExtras.mm in Sources */,
+				67C9D99493C23062575A4AC2B440EF7A /* POPAnimationRuntime.mm in Sources */,
+				6D2219755C9835EBB60DA31DDB2F8274 /* POPAnimationTracer.mm in Sources */,
+				7F3B5BAB2667C40A4B9CF480C220CFC9 /* POPAnimator.mm in Sources */,
+				DD2B7F39E511EB1DAA78426D7C46CAF4 /* POPBasicAnimation.mm in Sources */,
+				BD3657C26B1C3565F860278955481AF0 /* POPCGUtils.mm in Sources */,
+				66A65126E7FD4079ADCB15E0717702CA /* POPCustomAnimation.mm in Sources */,
+				1CF11C3330EF5A50A59061D602C22866 /* POPDecayAnimation.mm in Sources */,
+				74D0B4B9CD17D227B1D8250E9CE20DEC /* POPGeometry.mm in Sources */,
+				3211E2FD43CB44831D7DEF051CB7E944 /* POPLayerExtras.mm in Sources */,
+				6007B4A6A7777F008AD20106C858E861 /* POPMath.mm in Sources */,
+				7E77713D7180B7CA2AE236CDB6ED4E4A /* POPPropertyAnimation.mm in Sources */,
+				C39FE6DFAEAFF36C888CFA570349EE3F /* POPSpringAnimation.mm in Sources */,
+				A1E864C6D1E9FBA087D54C69F0EAC07B /* POPVector.mm in Sources */,
+				0623DBF5D1742B43B26FA898AF3F4D73 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D8B6C2C53DCCACBF41030AA9478D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2ECB03EF7231AAE2E7B9B3E5B8CA6 /* BLContactsViewController-dummy.m in Sources */,
+				7EF21EF4A222296D0A3FE5234CB215E1 /* BLContactsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570828B8AA90BD419BDD617A92623BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1C9A3AE3493770104E3E078CD98DF8 /* Pods-OceanApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF738F80ACF1BC24A0E2473A4978400D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1CFC03E3BC7AACA9FFBACEB054A04A41 /* PBXTargetDependency */ = {
+		7D87B95C39F941926D48A0DCC08B3789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = E67D66CB9C7F1BED0A039243EC9D0857 /* pop */;
+			targetProxy = 7F8E09BB03CAEAFAF5340D16853CC050 /* PBXContainerItemProxy */;
+		};
+		896921A81FEEC0D2454FA544E903FF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLContactsViewController;
+			target = 23768107051EC1ABC1506B127F61FE50 /* BLContactsViewController */;
+			targetProxy = DFB6EE4BB7BE4752AEBBB319A017BECB /* PBXContainerItemProxy */;
+		};
+		B42F7DBB64A8C3F204B8DB5183DB50D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 58364659B0102F9E9D0BF60F4E3E61EA /* PBXContainerItemProxy */;
+			targetProxy = 8874FD6AC24E67DC097DCA37CBBEBF87 /* PBXContainerItemProxy */;
 		};
-		824F78F1F5F68EC08337831757C77579 /* PBXTargetDependency */ = {
+		BDFBBAE16A54E9F177BB753EF551437D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLPhoneFormat;
 			target = DEBFEBFE3D87F687C40AC8EE319E29ED /* BLPhoneFormat */;
-			targetProxy = 11D410A671EB5EBAA2FD866C20629DF8 /* PBXContainerItemProxy */;
+			targetProxy = F9C2CFF316F1B18E64E043EDAB15BFB1 /* PBXContainerItemProxy */;
 		};
 		D12E8A4541BEBA9D65447735872F4D59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -540,12 +1007,86 @@
 			target = CC6FEA044AD2A7B33FC25F03DB9AA16F /* BLPhoneFormat-BLPhoneFormat */;
 			targetProxy = BAB39A8F0612FC632C329B1F4E9980A9 /* PBXContainerItemProxy */;
 		};
+		E88A23370B26E7193489036F1AEFC556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BLContactsViewController-BLContactsViewController";
+			target = 8DF5A58CD514E8910187A816712B94B2 /* BLContactsViewController-BLContactsViewController */;
+			targetProxy = 4068852CA24AFB5FE6682CDA290B47AA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00888969B84B916D710BFC083B9A6260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DFE3E25EF7A1E41810B46416C355D4 /* Pods-OceanApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OceanApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OceanApp/Pods-OceanApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OceanApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04310F1E20F222696669C6B7CAF38425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0AA097D28E09F97E05DEA2981CCC8C /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B2A2B0B1C058EC93CE12EA0C04760D3 /* Alamofire.xcconfig */;
+			baseConfigurationReference = D3495D9A97F52783C47D3849AC7F43D5 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -575,9 +1116,76 @@
 			};
 			name = Release;
 		};
+		19D48C47CB4BF2921630B8D82F94C59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBBCB5CCF5F34588383EDAC947034B2 /* BLContactsViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLContactsViewController/BLContactsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLContactsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLContactsViewController/BLContactsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BLContactsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EB209202A284E8C13DA252FC8D90DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC73CE85A123517DE5D7EB2B537916C /* Pods-OceanApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OceanApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OceanApp/Pods-OceanApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OceanApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1EFB9F4CFE6AB443DB36C113FF3579FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230F4BA380AAB11A8E0724F895BB440B /* BLPhoneFormat.xcconfig */;
+			baseConfigurationReference = 43C67376EFA9D56EFD6E9633E8D2D256 /* BLPhoneFormat.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -606,6 +1214,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3F7EDEA550DFCE715BD42026A5C2BE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBBCB5CCF5F34588383EDAC947034B2 /* BLContactsViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLContactsViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BLContactsViewController/ResourceBundle-BLContactsViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BLContactsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -651,9 +1276,26 @@
 			};
 			name = Debug;
 		};
+		7FC6C5F3BEADE6FB074D8D51ECF1DFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBBCB5CCF5F34588383EDAC947034B2 /* BLContactsViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLContactsViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BLContactsViewController/ResourceBundle-BLContactsViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BLContactsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		8F75105876599A122D0DB59F4791283A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230F4BA380AAB11A8E0724F895BB440B /* BLPhoneFormat.xcconfig */;
+			baseConfigurationReference = 43C67376EFA9D56EFD6E9633E8D2D256 /* BLPhoneFormat.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -683,9 +1325,41 @@
 			};
 			name = Release;
 		};
+		93F12E2FC199FB21023956DBC725B4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBBCB5CCF5F34588383EDAC947034B2 /* BLContactsViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLContactsViewController/BLContactsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLContactsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLContactsViewController/BLContactsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BLContactsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A39687E0EDFAADF86597170F502A7E37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230F4BA380AAB11A8E0724F895BB440B /* BLPhoneFormat.xcconfig */;
+			baseConfigurationReference = 43C67376EFA9D56EFD6E9633E8D2D256 /* BLPhoneFormat.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLPhoneFormat";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -740,45 +1414,9 @@
 			};
 			name = Release;
 		};
-		C3BE106DD080CC66D02D8F830786F504 /* Debug */ = {
+		EBB2F9EFEEBF9FA6919622EE47678B2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23DFE3E25EF7A1E41810B46416C355D4 /* Pods-OceanApp.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-OceanApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OceanApp/Pods-OceanApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OceanApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E93FD61D563E02348C8F67C46552F261 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EC73CE85A123517DE5D7EB2B537916C /* Pods-OceanApp.release.xcconfig */;
+			baseConfigurationReference = 3F0AA097D28E09F97E05DEA2981CCC8C /* pop.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -791,20 +1429,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-OceanApp/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OceanApp/Pods-OceanApp.modulemap";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OceanApp;
+				PRODUCT_NAME = pop;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -813,7 +1448,7 @@
 		};
 		F0C7D87A8C583D0EC4669A22A2D0C152 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 230F4BA380AAB11A8E0724F895BB440B /* BLPhoneFormat.xcconfig */;
+			baseConfigurationReference = 43C67376EFA9D56EFD6E9633E8D2D256 /* BLPhoneFormat.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLPhoneFormat";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -830,7 +1465,7 @@
 		};
 		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B2A2B0B1C058EC93CE12EA0C04760D3 /* Alamofire.xcconfig */;
+			baseConfigurationReference = D3495D9A97F52783C47D3849AC7F43D5 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -891,6 +1526,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4BF9D78FCC99E077D120EAE547DA84BE /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04310F1E20F222696669C6B7CAF38425 /* Debug */,
+				EBB2F9EFEEBF9FA6919622EE47678B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE7AAD5D9DBAC5876869FC3F1AD185B /* Build configuration list for PBXNativeTarget "Pods-OceanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00888969B84B916D710BFC083B9A6260 /* Debug */,
+				1EB209202A284E8C13DA252FC8D90DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8EF8CD17BB41933FFF3B672D5530A5D2 /* Build configuration list for PBXNativeTarget "BLPhoneFormat-BLPhoneFormat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -900,11 +1553,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7FCC42DD92165DB3D8876974BD1EEA7 /* Build configuration list for PBXNativeTarget "Pods-OceanApp" */ = {
+		A2BEA2B8CF4F13844D5BDC92E484AD2B /* Build configuration list for PBXNativeTarget "BLContactsViewController-BLContactsViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3BE106DD080CC66D02D8F830786F504 /* Debug */,
-				E93FD61D563E02348C8F67C46552F261 /* Release */,
+				7FC6C5F3BEADE6FB074D8D51ECF1DFFD /* Debug */,
+				3F7EDEA550DFCE715BD42026A5C2BE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3C052AB64CB42EB4BB7BE2DF8EEA71 /* Build configuration list for PBXNativeTarget "BLContactsViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D48C47CB4BF2921630B8D82F94C59B /* Debug */,
+				93F12E2FC199FB21023956DBC725B4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

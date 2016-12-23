@@ -1,15 +1,21 @@
 PODS:
   - Alamofire (4.1.0)
+  - BLContactsViewController (0.1.5)
   - BLPhoneFormat (0.3.3)
+  - pop (1.0.9)
 
 DEPENDENCIES:
   - Alamofire (~> 4.1.0)
+  - BLContactsViewController
   - BLPhoneFormat (~> 0.3.3)
+  - pop
 
 SPEC CHECKSUMS:
   Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  BLContactsViewController: bd831242afe1e3f9b2c1a72c4b9d615feef94def
   BLPhoneFormat: cb1cad0532d90ce2c56ad1758628765e2018ca62
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
 
-PODFILE CHECKSUM: ac4244e3cf2af825cef8e1132e3694c2c2d2b26b
+PODFILE CHECKSUM: d71411480d24b97065a2aa9bec0e5105786f72f1
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.1.1
