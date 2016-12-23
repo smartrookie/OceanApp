@@ -13,5 +13,7 @@ target 'OceanApp' do
  pod 'BLContactsViewController'
  
  pod 'pop'
+ 
+ pod 'HPGrowingTextView', '~> 1.1'
 
 end

@@ -2,20 +2,23 @@ PODS:
   - Alamofire (4.1.0)
   - BLContactsViewController (0.1.5)
   - BLPhoneFormat (0.3.3)
+  - HPGrowingTextView (1.1)
   - pop (1.0.9)
 
 DEPENDENCIES:
   - Alamofire (~> 4.1.0)
   - BLContactsViewController
   - BLPhoneFormat (~> 0.3.3)
+  - HPGrowingTextView (~> 1.1)
   - pop
 
 SPEC CHECKSUMS:
   Alamofire: e266cf991b933498df791e645e0d8ac294492153
   BLContactsViewController: bd831242afe1e3f9b2c1a72c4b9d615feef94def
   BLPhoneFormat: cb1cad0532d90ce2c56ad1758628765e2018ca62
+  HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
 
-PODFILE CHECKSUM: d71411480d24b97065a2aa9bec0e5105786f72f1
+PODFILE CHECKSUM: 2889c8e4c3c12136839d6c9ad10106d7f1f5f9cf
 
 COCOAPODS: 1.1.1

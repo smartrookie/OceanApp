@@ -87,11 +87,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BLContactsViewController/BLContactsViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BLPhoneFormat/BLPhoneFormat.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HPGrowingTextView/HPGrowingTextView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/pop/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BLContactsViewController/BLContactsViewController.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BLPhoneFormat/BLPhoneFormat.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HPGrowingTextView/HPGrowingTextView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/pop/pop.framework"
 fi
