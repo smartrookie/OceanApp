@@ -117,6 +117,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
     }
     
+    
+    
+    lazy var documentsPath : String = {
+        return NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+    }()
+    
 }
 
 
@@ -129,6 +135,31 @@ extension AppDelegate {
             return
         }
     }
+    
+
+    func loadLoginState() -> Dictionary<String, Any>? {
+        return NSDictionary(contentsOfFile: documentsPath + "state.data") as! Dictionary<String, Any>?
+    }
+    
+    func saveLoginStateWith(date:Int,
+                            phoneNumber:String,
+                            phoneCode:String,
+                            firstName:String,
+                            lastName:String,
+                            photo:Data?)  {
+        
+        let stateDic = ["version": date,
+                        "phoneNumber":phoneNumber,
+                        "phoneCode":phoneCode,
+                        "firstName":firstName,
+                        "lastName":lastName,
+                        "photo": photo ?? Data()] as [String : Any]
+        
+        NSDictionary(dictionary: stateDic).write(toFile: documentsPath + "state.data", atomically: true)
+    }
+    
+    
+
 }
 
 

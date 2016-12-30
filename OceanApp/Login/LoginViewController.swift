@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     let phoneField = UITextField()
     var countryButton : UIButton = UIButton()
     
+    var progressWindow : OcProgressWindow?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -222,9 +223,40 @@ class LoginViewController: UIViewController {
         UIApplication.shared.endIgnoringInteractionEvents()
     }
     
+    
+    var inProgress: Bool = false {
+        willSet {
+            if newValue != inProgress {
+                if newValue {
+                    progressWindow = OcProgressWindow(frame: UIScreen.main.bounds)
+                    progressWindow?.show(animated: true)
+                    
+                } else {
+                    if let _ = progressWindow {
+                        progressWindow?.dismiss(animated: true)
+                        progressWindow = nil
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    
     func nextButtonPressed(_ barItem: UIBarButtonItem) {
-        let codeController = LoginCodeController()
-        navigationController?.pushViewController(codeController, animated: true)
+        
+        if inProgress {
+            return
+        }
+        
+        inProgress = true
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            self.inProgress = false
+            let codeController = LoginCodeController()
+            self.navigationController?.pushViewController(codeController, animated: true)
+        }
+        
     }
     
     func termsOfServiceTapGesture(_ gesture: UITapGestureRecognizer) {

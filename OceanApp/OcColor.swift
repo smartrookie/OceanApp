@@ -43,6 +43,22 @@ extension UIColor {
     static func oc_lightWhiteColor() -> UIColor {
         return UIColor.color(hex: "#f2f2f2")
     }
+    
+    static func oc_accentColor() -> UIColor {
+        return UIColor.color(hex: "#007ee5")
+    }
+    
+    static func oc_separatorColor() -> UIColor {
+        return UIColor.color(hex: "#c8c7cc")
+    }
+    
+    static func oc_selectionColor() -> UIColor {
+        return UIColor.color(hex: "#d9d9d9")
+    }
+    
+    static func oc_destructiveAccentColor() -> UIColor {
+        return UIColor.color(hex: "#ff3b30")
+    }
 }
 
 
