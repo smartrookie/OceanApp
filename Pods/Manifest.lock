@@ -4,6 +4,7 @@ PODS:
   - BLPhoneFormat (0.3.3)
   - HPGrowingTextView (1.1)
   - pop (1.0.9)
+  - SSignalKit (0.0.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.1.0)
@@ -11,6 +12,7 @@ DEPENDENCIES:
   - BLPhoneFormat (~> 0.3.3)
   - HPGrowingTextView (~> 1.1)
   - pop
+  - SSignalKit (~> 0.0.2)
 
 SPEC CHECKSUMS:
   Alamofire: e266cf991b933498df791e645e0d8ac294492153
@@ -18,7 +20,8 @@ SPEC CHECKSUMS:
   BLPhoneFormat: cb1cad0532d90ce2c56ad1758628765e2018ca62
   HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SSignalKit: d65a4f89cdf037c787d630c7d6d6359b80f290f4
 
-PODFILE CHECKSUM: 2889c8e4c3c12136839d6c9ad10106d7f1f5f9cf
+PODFILE CHECKSUM: e1d5e2661e3bdaac23a55142a3313c2e22a0d561
 
 COCOAPODS: 1.1.1

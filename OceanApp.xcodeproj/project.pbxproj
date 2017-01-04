@@ -37,11 +37,10 @@
 		DE0A6A3D1E152BED00F9E381 /* AccountInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A3C1E152BED00F9E381 /* AccountInfoTableViewCell.swift */; };
 		DE0A6A3F1E15405B00F9E381 /* LogoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A3E1E15405B00F9E381 /* LogoutTableViewCell.swift */; };
 		DE0A6A411E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A401E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift */; };
-		DE0A6A431E1610C400F9E381 /* OcMediaAvatarmenuMixin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A421E1610C400F9E381 /* OcMediaAvatarmenuMixin.swift */; };
-		DE0A6A461E163D6C00F9E381 /* OcMenuSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A451E163D6C00F9E381 /* OcMenuSheetController.swift */; };
-		DE0A6A481E16427700F9E381 /* OcMenuSheetDimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A471E16427700F9E381 /* OcMenuSheetDimView.swift */; };
-		DE0A6A4A1E16429A00F9E381 /* OcMenuSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A491E16429A00F9E381 /* OcMenuSheetView.swift */; };
 		DE2469821E0D30E400A580A3 /* OcUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2469811E0D30E400A580A3 /* OcUser.swift */; };
+		DE30DE771E1CC50700648472 /* PatientsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30DE761E1CC50700648472 /* PatientsListController.swift */; };
+		DE40B9551E1CC90B00B3CFBA /* PatientListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */; };
+		DE42D89C1E1CD4E5001C4D35 /* OcPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */; };
 		DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */; };
 		DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */; };
 		DEC5FD341E09310D00762C89 /* OcModernConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */; };
@@ -106,11 +105,10 @@
 		DE0A6A3C1E152BED00F9E381 /* AccountInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfoTableViewCell.swift; sourceTree = "<group>"; };
 		DE0A6A3E1E15405B00F9E381 /* LogoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutTableViewCell.swift; sourceTree = "<group>"; };
 		DE0A6A401E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetProfilePhotoTableViewCell.swift; sourceTree = "<group>"; };
-		DE0A6A421E1610C400F9E381 /* OcMediaAvatarmenuMixin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcMediaAvatarmenuMixin.swift; sourceTree = "<group>"; };
-		DE0A6A451E163D6C00F9E381 /* OcMenuSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcMenuSheetController.swift; sourceTree = "<group>"; };
-		DE0A6A471E16427700F9E381 /* OcMenuSheetDimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcMenuSheetDimView.swift; sourceTree = "<group>"; };
-		DE0A6A491E16429A00F9E381 /* OcMenuSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcMenuSheetView.swift; sourceTree = "<group>"; };
 		DE2469811E0D30E400A580A3 /* OcUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcUser.swift; sourceTree = "<group>"; };
+		DE30DE761E1CC50700648472 /* PatientsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsListController.swift; sourceTree = "<group>"; };
+		DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListCell.swift; sourceTree = "<group>"; };
+		DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcPatient.swift; sourceTree = "<group>"; };
 		DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactsManager.swift; sourceTree = "<group>"; };
 		DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactCell.swift; sourceTree = "<group>"; };
 		DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcModernConversationController.swift; sourceTree = "<group>"; };
@@ -183,8 +181,6 @@
 				65749F4D1DF7D8B60037D2E4 /* OceanApp-Bridging-Header.h */,
 				DE2469811E0D30E400A580A3 /* OcUser.swift */,
 				DE0A6A361E14DF7D00F9E381 /* OcProgressWindow.swift */,
-				DE0A6A421E1610C400F9E381 /* OcMediaAvatarmenuMixin.swift */,
-				DE0A6A441E163D4700F9E381 /* Action Menu */,
 			);
 			path = OceanKit;
 			sourceTree = "<group>";
@@ -233,6 +229,7 @@
 				6514B86D1E0278D600B07611 /* Settings */,
 				656A028A1E03D4B90012BEE3 /* Contacts */,
 				DEC5FD321E09307E00762C89 /* Conversation */,
+				DE30DE751E1CC4C300648472 /* Patients */,
 				65747AB41DDED51C00405A9A /* Main.storyboard */,
 				65747ABA1DDED51C00405A9A /* Assets.xcassets */,
 				65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */,
@@ -274,14 +271,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE0A6A441E163D4700F9E381 /* Action Menu */ = {
+		DE30DE751E1CC4C300648472 /* Patients */ = {
 			isa = PBXGroup;
 			children = (
-				DE0A6A451E163D6C00F9E381 /* OcMenuSheetController.swift */,
-				DE0A6A491E16429A00F9E381 /* OcMenuSheetView.swift */,
-				DE0A6A471E16427700F9E381 /* OcMenuSheetDimView.swift */,
+				DE30DE761E1CC50700648472 /* PatientsListController.swift */,
+				DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */,
+				DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */,
 			);
-			path = "Action Menu";
+			path = Patients;
 			sourceTree = "<group>";
 		};
 		DEC5FD321E09307E00762C89 /* Conversation */ = {
@@ -508,17 +505,18 @@
 				DE2469821E0D30E400A580A3 /* OcUser.swift in Sources */,
 				654F4D8F1DF1716700954E56 /* OcNavigationBar.swift in Sources */,
 				DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */,
-				DE0A6A461E163D6C00F9E381 /* OcMenuSheetController.swift in Sources */,
 				65C358821DE7036C00D78E19 /* OcColor.swift in Sources */,
 				654F4D8D1DF15FB100954E56 /* OcFont.swift in Sources */,
 				DEC5FD341E09310D00762C89 /* OcModernConversationController.swift in Sources */,
 				65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */,
 				654C6B6B1DED7FB600C38A7D /* LoginViewController.swift in Sources */,
+				DE40B9551E1CC90B00B3CFBA /* PatientListCell.swift in Sources */,
 				DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */,
 				DE0A6A411E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift in Sources */,
+				DE30DE771E1CC50700648472 /* PatientsListController.swift in Sources */,
 				6580320C1DFE7E95001AA667 /* LoginCodeController.swift in Sources */,
+				DE42D89C1E1CD4E5001C4D35 /* OcPatient.swift in Sources */,
 				656A028C1E03D4E80012BEE3 /* ContactsController.swift in Sources */,
-				DE0A6A431E1610C400F9E381 /* OcMediaAvatarmenuMixin.swift in Sources */,
 				DE0A6A3F1E15405B00F9E381 /* LogoutTableViewCell.swift in Sources */,
 				6540D74A1DF5AA2000FFA91B /* LoginCountriesController.swift in Sources */,
 				654C6B6D1DED802700C38A7D /* TabBarViewController.swift in Sources */,
@@ -530,9 +528,7 @@
 				6514B86F1E0278F700B07611 /* AccountSettingsController.swift in Sources */,
 				DE0A6A3D1E152BED00F9E381 /* AccountInfoTableViewCell.swift in Sources */,
 				654C6B701DED840400C38A7D /* QRCaptureViewController.swift in Sources */,
-				DE0A6A4A1E16429A00F9E381 /* OcMenuSheetView.swift in Sources */,
 				6564123F1DF68E1A0064E6AD /* OcDispatchQueue.swift in Sources */,
-				DE0A6A481E16427700F9E381 /* OcMenuSheetDimView.swift in Sources */,
 				65341ED61DEE942B00AB90B0 /* QRSafariActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

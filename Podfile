@@ -15,5 +15,7 @@ target 'OceanApp' do
  pod 'pop'
  
  pod 'HPGrowingTextView', '~> 1.1'
+ 
+ pod 'SSignalKit', '~> 0.0.2'
 
 end

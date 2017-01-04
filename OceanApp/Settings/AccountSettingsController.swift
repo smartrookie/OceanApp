@@ -90,10 +90,17 @@ extension AccountSettingsController : UITableViewDelegate {
         else if selectedCell == setProfilePhotoCell {
             setProfilePhotoPressed()
         }
-        
     }
     
     func setProfilePhotoPressed() {
+       
         
+        
+        
+        
+    }
+    
+    func updateProfile(image: UIImage) {
+        debugPrint("hello updateProfile")
     }
 }

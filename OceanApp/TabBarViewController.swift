@@ -19,7 +19,10 @@ class TabBarViewController: UITabBarController {
                                                image: UIImage(named: "TabIconContacts"),
                                                selectedImage: UIImage(named: "TabIconContacts_Highlighted"))
         
-        let qr_navi = UINavigationController(rootViewController:QRCaptureViewController())
+        //let qr_navi = UINavigationController(rootViewController:QRCaptureViewController())
+        
+        let patientNavi = UINavigationController(rootViewController: PatientsListController())
+        patientNavi.tabBarItem = UITabBarItem(title: "Patients", image: nil, tag: 0)
         
         let accountSettingsController = AccountSettingsController()
         let accountNavi = UINavigationController(rootViewController: accountSettingsController)
@@ -32,7 +35,7 @@ class TabBarViewController: UITabBarController {
         
         
         
-        viewControllers = [contactsNavi,qr_navi,accountNavi]
+        viewControllers = [contactsNavi,patientNavi,accountNavi]
     }
 
     override func didReceiveMemoryWarning() {
