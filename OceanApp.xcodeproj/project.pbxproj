@@ -39,13 +39,28 @@
 		DE0A6A411E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A401E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift */; };
 		DE2469821E0D30E400A580A3 /* OcUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2469811E0D30E400A580A3 /* OcUser.swift */; };
 		DE30DE771E1CC50700648472 /* PatientsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30DE761E1CC50700648472 /* PatientsListController.swift */; };
+		DE3BEB311E1F9BDD007104C4 /* OcCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB301E1F9BDD007104C4 /* OcCollectionViewCell.swift */; };
+		DE3BEB6E1E20B6BC007104C4 /* SWCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB6D1E20B6BC007104C4 /* SWCoreData.swift */; };
+		DE3BEB701E20C080007104C4 /* SWFetchedResultDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB6F1E20C080007104C4 /* SWFetchedResultDataProvider.swift */; };
+		DE3BEB721E20C16C007104C4 /* SWManagedObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB711E20C16C007104C4 /* SWManagedObjectType.swift */; };
+		DE3BEB741E20C2F5007104C4 /* SWPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB731E20C2F5007104C4 /* SWPatient.swift */; };
+		DE3BEB761E20CC4C007104C4 /* SWDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB751E20CC4C007104C4 /* SWDataProvider.swift */; };
+		DE3BEB781E20D587007104C4 /* SWTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB771E20D587007104C4 /* SWTableViewDataSource.swift */; };
 		DE40B9551E1CC90B00B3CFBA /* PatientListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */; };
 		DE42D89C1E1CD4E5001C4D35 /* OcPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */; };
+		DE42DC681E1D2011001C4D35 /* AddPatientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42DC671E1D2011001C4D35 /* AddPatientController.swift */; };
+		DE42DC6B1E1D2958001C4D35 /* AddPatientPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42DC6A1E1D2958001C4D35 /* AddPatientPersonCell.swift */; };
+		DE42DC6D1E1D2B29001C4D35 /* OcTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42DC6C1E1D2B29001C4D35 /* OcTableViewCell.swift */; };
+		DE887E291E1E369300AF3A28 /* AddPatientFingerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE887E281E1E369300AF3A28 /* AddPatientFingerCell.swift */; };
+		DE887E351E1E51B500AF3A28 /* OcMutilineInputViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE887E341E1E51B500AF3A28 /* OcMutilineInputViewCell.swift */; };
 		DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */; };
 		DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */; };
 		DEC5FD341E09310D00762C89 /* OcModernConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */; };
 		DEC5FD3B1E093B3500762C89 /* OcConversationInputPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD3A1E093B3500762C89 /* OcConversationInputPanel.swift */; };
 		DEC5FD3D1E09434200762C89 /* OcConversationInputTextPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5FD3C1E09434200762C89 /* OcConversationInputTextPanel.swift */; };
+		DED19C891E21EAC100576C5B /* PatientDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C881E21EAC100576C5B /* PatientDetailController.swift */; };
+		DED19C8C1E21F09C00576C5B /* PatientFingersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C8B1E21F09C00576C5B /* PatientFingersCell.swift */; };
+		DED19C921E2209E400576C5B /* PatientMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C911E2209E400576C5B /* PatientMarkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,13 +122,28 @@
 		DE0A6A401E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetProfilePhotoTableViewCell.swift; sourceTree = "<group>"; };
 		DE2469811E0D30E400A580A3 /* OcUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcUser.swift; sourceTree = "<group>"; };
 		DE30DE761E1CC50700648472 /* PatientsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsListController.swift; sourceTree = "<group>"; };
+		DE3BEB301E1F9BDD007104C4 /* OcCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3BEB6D1E20B6BC007104C4 /* SWCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWCoreData.swift; sourceTree = "<group>"; };
+		DE3BEB6F1E20C080007104C4 /* SWFetchedResultDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWFetchedResultDataProvider.swift; sourceTree = "<group>"; };
+		DE3BEB711E20C16C007104C4 /* SWManagedObjectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWManagedObjectType.swift; sourceTree = "<group>"; };
+		DE3BEB731E20C2F5007104C4 /* SWPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPatient.swift; sourceTree = "<group>"; };
+		DE3BEB751E20CC4C007104C4 /* SWDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWDataProvider.swift; sourceTree = "<group>"; };
+		DE3BEB771E20D587007104C4 /* SWTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWTableViewDataSource.swift; sourceTree = "<group>"; };
 		DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListCell.swift; sourceTree = "<group>"; };
 		DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcPatient.swift; sourceTree = "<group>"; };
+		DE42DC671E1D2011001C4D35 /* AddPatientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientController.swift; sourceTree = "<group>"; };
+		DE42DC6A1E1D2958001C4D35 /* AddPatientPersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientPersonCell.swift; sourceTree = "<group>"; };
+		DE42DC6C1E1D2B29001C4D35 /* OcTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcTableViewCell.swift; sourceTree = "<group>"; };
+		DE887E281E1E369300AF3A28 /* AddPatientFingerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientFingerCell.swift; sourceTree = "<group>"; };
+		DE887E341E1E51B500AF3A28 /* OcMutilineInputViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcMutilineInputViewCell.swift; sourceTree = "<group>"; };
 		DEC5FD281E07F7DA00762C89 /* OcContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactsManager.swift; sourceTree = "<group>"; };
 		DEC5FD2C1E08F0A000762C89 /* OcContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcContactCell.swift; sourceTree = "<group>"; };
 		DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcModernConversationController.swift; sourceTree = "<group>"; };
 		DEC5FD3A1E093B3500762C89 /* OcConversationInputPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcConversationInputPanel.swift; sourceTree = "<group>"; };
 		DEC5FD3C1E09434200762C89 /* OcConversationInputTextPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcConversationInputTextPanel.swift; sourceTree = "<group>"; };
+		DED19C881E21EAC100576C5B /* PatientDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailController.swift; sourceTree = "<group>"; };
+		DED19C8B1E21F09C00576C5B /* PatientFingersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientFingersCell.swift; sourceTree = "<group>"; };
+		DED19C911E2209E400576C5B /* PatientMarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientMarkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +211,9 @@
 				65749F4D1DF7D8B60037D2E4 /* OceanApp-Bridging-Header.h */,
 				DE2469811E0D30E400A580A3 /* OcUser.swift */,
 				DE0A6A361E14DF7D00F9E381 /* OcProgressWindow.swift */,
+				DE42DC6C1E1D2B29001C4D35 /* OcTableViewCell.swift */,
+				DE887E341E1E51B500AF3A28 /* OcMutilineInputViewCell.swift */,
+				DE3BEB301E1F9BDD007104C4 /* OcCollectionViewCell.swift */,
 			);
 			path = OceanKit;
 			sourceTree = "<group>";
@@ -223,6 +256,7 @@
 				65747AB01DDED51C00405A9A /* AppDelegate.swift */,
 				65747AB21DDED51C00405A9A /* ViewController.swift */,
 				654C6B6C1DED802700C38A7D /* TabBarViewController.swift */,
+				DE3BEB5D1E1FD601007104C4 /* CoreData */,
 				6564123D1DF68DFE0064E6AD /* OceanKit */,
 				654C6B6E1DED82E800C38A7D /* QRCapture */,
 				654C6B691DED7FB600C38A7D /* Login */,
@@ -235,7 +269,6 @@
 				65747ABC1DDED51C00405A9A /* LaunchScreen.storyboard */,
 				656412401DF693370064E6AD /* PhoneCountries.txt */,
 				65747ABF1DDED51C00405A9A /* Info.plist */,
-				65747AB71DDED51C00405A9A /* OceanApp.xcdatamodeld */,
 				65C358811DE7036C00D78E19 /* OcColor.swift */,
 				654F4D8C1DF15FB100954E56 /* OcFont.swift */,
 				654F4D8E1DF1716700954E56 /* OcNavigationBar.swift */,
@@ -277,8 +310,35 @@
 				DE30DE761E1CC50700648472 /* PatientsListController.swift */,
 				DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */,
 				DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */,
+				DE42DC671E1D2011001C4D35 /* AddPatientController.swift */,
+				DE42DC691E1D28F7001C4D35 /* AddPatients */,
+				DED19C881E21EAC100576C5B /* PatientDetailController.swift */,
+				DED19C8A1E21EAD800576C5B /* PatientDetail */,
 			);
 			path = Patients;
+			sourceTree = "<group>";
+		};
+		DE3BEB5D1E1FD601007104C4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				65747AB71DDED51C00405A9A /* OceanApp.xcdatamodeld */,
+				DE3BEB751E20CC4C007104C4 /* SWDataProvider.swift */,
+				DE3BEB731E20C2F5007104C4 /* SWPatient.swift */,
+				DE3BEB6D1E20B6BC007104C4 /* SWCoreData.swift */,
+				DE3BEB6F1E20C080007104C4 /* SWFetchedResultDataProvider.swift */,
+				DE3BEB711E20C16C007104C4 /* SWManagedObjectType.swift */,
+				DE3BEB771E20D587007104C4 /* SWTableViewDataSource.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DE42DC691E1D28F7001C4D35 /* AddPatients */ = {
+			isa = PBXGroup;
+			children = (
+				DE42DC6A1E1D2958001C4D35 /* AddPatientPersonCell.swift */,
+				DE887E281E1E369300AF3A28 /* AddPatientFingerCell.swift */,
+			);
+			path = AddPatients;
 			sourceTree = "<group>";
 		};
 		DEC5FD321E09307E00762C89 /* Conversation */ = {
@@ -297,6 +357,15 @@
 				DEC5FD3C1E09434200762C89 /* OcConversationInputTextPanel.swift */,
 			);
 			path = "Input Panel";
+			sourceTree = "<group>";
+		};
+		DED19C8A1E21EAD800576C5B /* PatientDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DED19C8B1E21F09C00576C5B /* PatientFingersCell.swift */,
+				DED19C911E2209E400576C5B /* PatientMarkCell.swift */,
+			);
+			path = PatientDetail;
 			sourceTree = "<group>";
 		};
 		F02811E7023E73EF705A80A8 /* Pods */ = {
@@ -502,14 +571,23 @@
 			files = (
 				DEC5FD3B1E093B3500762C89 /* OcConversationInputPanel.swift in Sources */,
 				65747AB31DDED51C00405A9A /* ViewController.swift in Sources */,
+				DE42DC681E1D2011001C4D35 /* AddPatientController.swift in Sources */,
+				DED19C921E2209E400576C5B /* PatientMarkCell.swift in Sources */,
 				DE2469821E0D30E400A580A3 /* OcUser.swift in Sources */,
 				654F4D8F1DF1716700954E56 /* OcNavigationBar.swift in Sources */,
 				DEC5FD2D1E08F0A000762C89 /* OcContactCell.swift in Sources */,
 				65C358821DE7036C00D78E19 /* OcColor.swift in Sources */,
 				654F4D8D1DF15FB100954E56 /* OcFont.swift in Sources */,
+				DE42DC6D1E1D2B29001C4D35 /* OcTableViewCell.swift in Sources */,
 				DEC5FD341E09310D00762C89 /* OcModernConversationController.swift in Sources */,
 				65747AB91DDED51C00405A9A /* OceanApp.xcdatamodeld in Sources */,
+				DE42DC6B1E1D2958001C4D35 /* AddPatientPersonCell.swift in Sources */,
+				DE887E351E1E51B500AF3A28 /* OcMutilineInputViewCell.swift in Sources */,
+				DE3BEB721E20C16C007104C4 /* SWManagedObjectType.swift in Sources */,
+				DE3BEB6E1E20B6BC007104C4 /* SWCoreData.swift in Sources */,
+				DED19C8C1E21F09C00576C5B /* PatientFingersCell.swift in Sources */,
 				654C6B6B1DED7FB600C38A7D /* LoginViewController.swift in Sources */,
+				DE3BEB311E1F9BDD007104C4 /* OcCollectionViewCell.swift in Sources */,
 				DE40B9551E1CC90B00B3CFBA /* PatientListCell.swift in Sources */,
 				DEC5FD291E07F7DA00762C89 /* OcContactsManager.swift in Sources */,
 				DE0A6A411E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift in Sources */,
@@ -517,18 +595,24 @@
 				6580320C1DFE7E95001AA667 /* LoginCodeController.swift in Sources */,
 				DE42D89C1E1CD4E5001C4D35 /* OcPatient.swift in Sources */,
 				656A028C1E03D4E80012BEE3 /* ContactsController.swift in Sources */,
+				DE3BEB781E20D587007104C4 /* SWTableViewDataSource.swift in Sources */,
 				DE0A6A3F1E15405B00F9E381 /* LogoutTableViewCell.swift in Sources */,
 				6540D74A1DF5AA2000FFA91B /* LoginCountriesController.swift in Sources */,
 				654C6B6D1DED802700C38A7D /* TabBarViewController.swift in Sources */,
 				65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */,
+				DE3BEB701E20C080007104C4 /* SWFetchedResultDataProvider.swift in Sources */,
+				DE3BEB761E20CC4C007104C4 /* SWDataProvider.swift in Sources */,
 				DE0A6A371E14DF7D00F9E381 /* OcProgressWindow.swift in Sources */,
 				65341ED41DEE810400AB90B0 /* QRActivityItem.swift in Sources */,
 				656412431DF6EA240064E6AD /* OcPhoneUtils.swift in Sources */,
+				DED19C891E21EAC100576C5B /* PatientDetailController.swift in Sources */,
 				DEC5FD3D1E09434200762C89 /* OcConversationInputTextPanel.swift in Sources */,
+				DE3BEB741E20C2F5007104C4 /* SWPatient.swift in Sources */,
 				6514B86F1E0278F700B07611 /* AccountSettingsController.swift in Sources */,
 				DE0A6A3D1E152BED00F9E381 /* AccountInfoTableViewCell.swift in Sources */,
 				654C6B701DED840400C38A7D /* QRCaptureViewController.swift in Sources */,
 				6564123F1DF68E1A0064E6AD /* OcDispatchQueue.swift in Sources */,
+				DE887E291E1E369300AF3A28 /* AddPatientFingerCell.swift in Sources */,
 				65341ED61DEE942B00AB90B0 /* QRSafariActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -695,6 +779,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "OceanApp/OceanKit/OceanApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -715,6 +800,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "OceanApp/OceanKit/OceanApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -824,7 +910,8 @@
 				65747AB81DDED51C00405A9A /* OceanApp.xcdatamodel */,
 			);
 			currentVersion = 65747AB81DDED51C00405A9A /* OceanApp.xcdatamodel */;
-			path = OceanApp.xcdatamodeld;
+			name = OceanApp.xcdatamodeld;
+			path = ../OceanApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

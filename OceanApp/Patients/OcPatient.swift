@@ -8,10 +8,10 @@
 
 import UIKit
 
-enum OcPatientSex {
-    case unkown
-    case male
-    case femal
+enum OcPatientSex : Int16 {
+    case unkown = -1
+    case male   = 0
+    case femal  = 1
 }
 
 class OcPatient: NSObject {
@@ -23,6 +23,8 @@ class OcPatient: NSObject {
     var userName  = ""
     var sex : OcPatientSex = .unkown
     var photoUrlSmall = ""
+    var lastUpdateTime : Date?
+    var oldestUpdateTime : Date?
     
     var phonebookFirstName = ""
     var phonebookLastName = ""
