@@ -38,6 +38,7 @@
 		DE0A6A3F1E15405B00F9E381 /* LogoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A3E1E15405B00F9E381 /* LogoutTableViewCell.swift */; };
 		DE0A6A411E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A6A401E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift */; };
 		DE2469821E0D30E400A580A3 /* OcUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2469811E0D30E400A580A3 /* OcUser.swift */; };
+		DE2FDF1B1E24DBB400BB0F97 /* PatientDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2FDF1A1E24DBB400BB0F97 /* PatientDetailCell.swift */; };
 		DE30DE771E1CC50700648472 /* PatientsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30DE761E1CC50700648472 /* PatientsListController.swift */; };
 		DE3BEB311E1F9BDD007104C4 /* OcCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB301E1F9BDD007104C4 /* OcCollectionViewCell.swift */; };
 		DE3BEB6E1E20B6BC007104C4 /* SWCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BEB6D1E20B6BC007104C4 /* SWCoreData.swift */; };
@@ -121,6 +122,7 @@
 		DE0A6A3E1E15405B00F9E381 /* LogoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutTableViewCell.swift; sourceTree = "<group>"; };
 		DE0A6A401E160F5200F9E381 /* SetProfilePhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetProfilePhotoTableViewCell.swift; sourceTree = "<group>"; };
 		DE2469811E0D30E400A580A3 /* OcUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcUser.swift; sourceTree = "<group>"; };
+		DE2FDF1A1E24DBB400BB0F97 /* PatientDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailCell.swift; sourceTree = "<group>"; };
 		DE30DE761E1CC50700648472 /* PatientsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsListController.swift; sourceTree = "<group>"; };
 		DE3BEB301E1F9BDD007104C4 /* OcCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE3BEB6D1E20B6BC007104C4 /* SWCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWCoreData.swift; sourceTree = "<group>"; };
@@ -131,7 +133,7 @@
 		DE3BEB771E20D587007104C4 /* SWTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWTableViewDataSource.swift; sourceTree = "<group>"; };
 		DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListCell.swift; sourceTree = "<group>"; };
 		DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcPatient.swift; sourceTree = "<group>"; };
-		DE42DC671E1D2011001C4D35 /* AddPatientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientController.swift; sourceTree = "<group>"; };
+		DE42DC671E1D2011001C4D35 /* AddPatientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPatientController.swift; path = ../AddPatientController.swift; sourceTree = "<group>"; };
 		DE42DC6A1E1D2958001C4D35 /* AddPatientPersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientPersonCell.swift; sourceTree = "<group>"; };
 		DE42DC6C1E1D2B29001C4D35 /* OcTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcTableViewCell.swift; sourceTree = "<group>"; };
 		DE887E281E1E369300AF3A28 /* AddPatientFingerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientFingerCell.swift; sourceTree = "<group>"; };
@@ -141,7 +143,7 @@
 		DEC5FD331E09310D00762C89 /* OcModernConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcModernConversationController.swift; sourceTree = "<group>"; };
 		DEC5FD3A1E093B3500762C89 /* OcConversationInputPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcConversationInputPanel.swift; sourceTree = "<group>"; };
 		DEC5FD3C1E09434200762C89 /* OcConversationInputTextPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcConversationInputTextPanel.swift; sourceTree = "<group>"; };
-		DED19C881E21EAC100576C5B /* PatientDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailController.swift; sourceTree = "<group>"; };
+		DED19C881E21EAC100576C5B /* PatientDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientDetailController.swift; path = OceanApp/Patients/PatientDetailController.swift; sourceTree = SOURCE_ROOT; };
 		DED19C8B1E21F09C00576C5B /* PatientFingersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientFingersCell.swift; sourceTree = "<group>"; };
 		DED19C911E2209E400576C5B /* PatientMarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientMarkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -310,9 +312,7 @@
 				DE30DE761E1CC50700648472 /* PatientsListController.swift */,
 				DE40B9541E1CC90B00B3CFBA /* PatientListCell.swift */,
 				DE42D89B1E1CD4E5001C4D35 /* OcPatient.swift */,
-				DE42DC671E1D2011001C4D35 /* AddPatientController.swift */,
 				DE42DC691E1D28F7001C4D35 /* AddPatients */,
-				DED19C881E21EAC100576C5B /* PatientDetailController.swift */,
 				DED19C8A1E21EAD800576C5B /* PatientDetail */,
 			);
 			path = Patients;
@@ -335,6 +335,7 @@
 		DE42DC691E1D28F7001C4D35 /* AddPatients */ = {
 			isa = PBXGroup;
 			children = (
+				DE42DC671E1D2011001C4D35 /* AddPatientController.swift */,
 				DE42DC6A1E1D2958001C4D35 /* AddPatientPersonCell.swift */,
 				DE887E281E1E369300AF3A28 /* AddPatientFingerCell.swift */,
 			);
@@ -362,6 +363,8 @@
 		DED19C8A1E21EAD800576C5B /* PatientDetail */ = {
 			isa = PBXGroup;
 			children = (
+				DED19C881E21EAC100576C5B /* PatientDetailController.swift */,
+				DE2FDF1A1E24DBB400BB0F97 /* PatientDetailCell.swift */,
 				DED19C8B1E21F09C00576C5B /* PatientFingersCell.swift */,
 				DED19C911E2209E400576C5B /* PatientMarkCell.swift */,
 			);
@@ -599,6 +602,7 @@
 				DE0A6A3F1E15405B00F9E381 /* LogoutTableViewCell.swift in Sources */,
 				6540D74A1DF5AA2000FFA91B /* LoginCountriesController.swift in Sources */,
 				654C6B6D1DED802700C38A7D /* TabBarViewController.swift in Sources */,
+				DE2FDF1B1E24DBB400BB0F97 /* PatientDetailCell.swift in Sources */,
 				65747AB11DDED51C00405A9A /* AppDelegate.swift in Sources */,
 				DE3BEB701E20C080007104C4 /* SWFetchedResultDataProvider.swift in Sources */,
 				DE3BEB761E20CC4C007104C4 /* SWDataProvider.swift in Sources */,

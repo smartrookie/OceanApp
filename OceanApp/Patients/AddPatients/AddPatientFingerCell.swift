@@ -125,6 +125,19 @@ class AddPatientFingerCell: OcTableViewCell {
 
 }
 
+extension AddPatientFingerCell : SWConfigurableCell {
+    func configureForObject(object: SWPatient) {
+        var i = 0
+        for flag in object.fingers as! [Bool] {
+            fingerButtons[i].isSelected = flag
+            i += 1
+        }
+        
+    }
+}
+
+
+
 
 class OcFingerButton: UIButton {
     

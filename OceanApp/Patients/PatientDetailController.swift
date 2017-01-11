@@ -12,9 +12,11 @@ class PatientDetailController: UIViewController {
     
     var patient: SWPatient! {
         didSet {
-            personCell.configureForObject(object: patient)
-            fingersCell.configureForObject(object: patient)
-            markCell.configureForObject(object: patient)
+//            personCell.configureForObject(object: patient)
+//            fingersCell.configureForObject(object: patient)
+//            markCell.configureForObject(object: patient)
+            
+            detailCell.configureForObject(object: patient)
             tableView.reloadData()
         }
     }
@@ -22,12 +24,8 @@ class PatientDetailController: UIViewController {
     let tableView = UITableView(frame: CGRect.zero, style: .plain)
     var sections = [[OcTableViewCell]]()
     
+    let detailCell = PatientDetailCell()
     
-    let personCell  = PatientListCell()
-    let fingersCell = PatientFingersCell()
-    let markCell    = PatientMarkCell()
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "详细资料"
@@ -40,9 +38,8 @@ class PatientDetailController: UIViewController {
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
-        sections.append([personCell])
-        sections.append([fingersCell])
-        sections.append([markCell])
+
+        sections.append([detailCell])
         
         tableView.tableFooterView = UIView(frame: CGRect.zero)
         
@@ -53,9 +50,7 @@ class PatientDetailController: UIViewController {
     @objc private func rightBarButtonPressed() {
         let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
-        let cancel = UIAlertAction(title: "取消", style: .cancel) { (_) in
-            
-        }
+        let cancel = UIAlertAction(title: "取消", style: .cancel, handler: nil)
         
         let delete = UIAlertAction(title: "删除", style: .destructive) { [unowned self](_) in
             
@@ -74,8 +69,11 @@ class PatientDetailController: UIViewController {
             self.present(deleteAlert, animated: true, completion: nil)
         }
         
-        let modify = UIAlertAction(title: "修改", style: .default) { (_) in
-            
+        let modify = UIAlertAction(title: "修改", style: .default) { [unowned self](_) in
+            let modifyController = AddPatientController()
+            modifyController.patient = self.patient
+            let navi = UINavigationController(rootViewController: modifyController)
+            self.present(navi, animated: false, completion: nil)
         }
         
         alertController.addAction(modify)

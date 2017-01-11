@@ -13,19 +13,24 @@ class AddPatientController: UITableViewController , SWManagedObjectContextSettab
     
     var managerObjectContext: NSManagedObjectContext!
     
-    
-    
     var sections = [[OcTableViewCell]]()
-    
     
     private let fingerCell = AddPatientFingerCell()
     private let markCell = OcMutilineInputCell()
     private let personCell = AddPatientPersonCell()
+    
+    
+    var patient : SWPatient?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "新增"
+        if let _ = patient {
+            title = "修改"
+        } else {
+            title = "新增"
+        }
         
         let rightBarButtonItem = UIBarButtonItem(title: "完成", style: .plain, target: self, action: #selector(doneButtonPressed))
         navigationItem.rightBarButtonItem = rightBarButtonItem
@@ -39,6 +44,9 @@ class AddPatientController: UITableViewController , SWManagedObjectContextSettab
         sections.append([personCell])
         
         sections.append([fingerCell])
+        if let _ = patient {
+            fingerCell.configureForObject(object: patient!)
+        }
         
         markCell.selectionStyle = .none
         markCell.placeholder = "Description"
@@ -50,6 +58,9 @@ class AddPatientController: UITableViewController , SWManagedObjectContextSettab
             self.tableView.scrollToRow(at: indexPath!, at: .bottom, animated: true)
         }
         
+        if let _ = patient {
+            markCell.textString = patient!.mark!
+        }
         
         tableView.keyboardDismissMode = .interactive
         tableView.tableFooterView = UIView()
@@ -63,22 +74,30 @@ class AddPatientController: UITableViewController , SWManagedObjectContextSettab
         let mark = markCell.textView.text
         let fingers = fingerCell.fingerFlag
         
-        managerObjectContext.performChanges {
-            let patient : SWPatient = self.managerObjectContext.insertObject()
-            patient.name = name
-            patient.sex = sex.rawValue
-            patient.createTime = date as NSDate?
-            patient.mark = mark
-            patient.fingers = fingers as NSObject?
-            
+        
+        var managerObjectContext = self.managerObjectContext
+        if let _ = patient {
+            managerObjectContext = patient?.managedObjectContext
+        }
+        
+        managerObjectContext!.performChanges {
+            var patient = self.patient
+            if let _ = patient {} else {
+                patient  = self.managerObjectContext.insertObject() as SWPatient
+            }
+            patient!.name = name
+            patient!.sex = sex.rawValue
+            patient!.createTime = date as NSDate?
+            patient!.mark = mark
+            patient!.fingers = fingers as NSObject?
         }
         
         
-        dismiss(animated: true, completion: nil)
+        cancelButtonPressed()
     }
     
     func cancelButtonPressed() {
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: patient == nil, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
